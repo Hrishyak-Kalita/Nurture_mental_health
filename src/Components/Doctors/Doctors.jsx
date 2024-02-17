@@ -4,11 +4,11 @@ const Docs = ({ title }) => {
     return (
 
         <div className="Doct">
-            <h4>The Doctors</h4>
+            <h4>New Heading</h4>
             <p className="DocPara">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero amet perspiciatis fuga laudantium voluptas. Quis, ab similique aliquam, pariatur at incidunt sint minima quos a odio voluptate tempore Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, quisquam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quod alias inventore quidem nulla cumque esse eum maiores accusamus ut quo cupiditate aliquam, laudantium unde, exercitationem sed provident voluptatem odit!
             </p>
-            <button className='readMorebtn' id="ReadDoc">Read More</button>
+            {/* <button className='readMorebtn' id="ReadDoc">Read More</button> */}
         </div>
 
     )
