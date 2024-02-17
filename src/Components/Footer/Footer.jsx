@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div className='footer'>
       <div className="first">
-        <img className="logo" src="./medica.png" alt="medica logo" />
+        <img className="logo" src="./LogoHome.svg" alt="medica logo" />
         <p className="footer_des">Phasellus at nunc orci. Donec ipsum metus, pharetra quis nunc sit amet, maximus vehicula nibh. Praesent pulvinar porta elit, a commodo erat accumsan sed. Vivamus vel tristique nibh.</p>
         <div className="footer_icons">
           <Icon icon="mdi:instagram" color="white" />
