@@ -21,13 +21,22 @@
 
     .aboutImage{
         padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
        
         img{
 
             aspect-ratio: 16/9;
             object-fit: cover;
             width: 85%;
+            padding: 1rem 0;
         }
+    }
+    
+    .about1{
+        padding: 1rem;
     }
 }
 
