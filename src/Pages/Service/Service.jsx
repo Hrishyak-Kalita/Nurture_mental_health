@@ -1,18 +1,17 @@
 import React from "react";
+import {TileDesc} from "../../Components";
 import "./Service.scss";
 
 const Service = () => {
   return (
     <>
-      <div className="HeadingImage">
-        <div className="virtualbox">Our Services</div>
-        {/* <img src="https://cdn.pixabay.com/photo/2017/01/30/02/20/mental-health-2019924_1280.jpg" alt="" /> */}
-      </div>
+    <TileDesc name="OUR SERVICES"/>
+      
       <div className="ServiceContainer">
         <div className="ServiceBox">
           <img
             className="ServImg"
-            src="https://cdn.pixabay.com/photo/2017/11/26/15/16/smiley-2979107_640.jpg"
+            src="https://res.cloudinary.com/dttau3ddh/image/upload/v1708184699/WhatsApp_Image_2024-02-17_at_19.41.42_qaesue.jpg"
             alt=""
           />
           <h3>Individual Therapy</h3>
@@ -58,7 +57,7 @@ const Service = () => {
         <div className="ServiceBox">
           <img
             className="ServImg"
-            src="https://cdn.pixabay.com/photo/2017/11/26/15/16/smiley-2979107_640.jpg"
+            src="https://res.cloudinary.com/dttau3ddh/image/upload/v1708184697/WhatsApp_Image_2024-02-17_at_19.41.42_1_c1gklt.jpg"
             alt=""
           />
           <h3>Family Therapy</h3>
@@ -102,7 +101,7 @@ const Service = () => {
         <div className="ServiceBox">
           <img
             className="ServImg"
-            src="https://cdn.pixabay.com/photo/2017/11/26/15/16/smiley-2979107_640.jpg"
+            src="https://res.cloudinary.com/dttau3ddh/image/upload/v1708184696/WhatsApp_Image_2024-02-17_at_19.41.41_prbshn.jpg"
             alt=""
           />
           <h3>Couple Therapy</h3>
@@ -145,7 +144,7 @@ const Service = () => {
         <div className="ServiceBox">
           <img
             className="ServImg"
-            src="https://cdn.pixabay.com/photo/2017/11/26/15/16/smiley-2979107_640.jpg"
+            src="https://res.cloudinary.com/dttau3ddh/image/upload/v1708184303/A_3D_animate_11cd1d7e-a4af-4c8a-a635-fae01f6dee2a_gly0tq.png"
             alt=""
           />
           <h3>Kids & Adolescent Therapy</h3>
@@ -187,7 +186,7 @@ const Service = () => {
         <div className="ServiceBox">
           <img
             className="ServImg"
-            src="https://cdn.pixabay.com/photo/2017/11/26/15/16/smiley-2979107_640.jpg"
+            src="https://res.cloudinary.com/dttau3ddh/image/upload/v1708184295/imagine-a-3d-cartoon-lively-community-gatherin-upscaled_q23q7j.jpg"
             alt=""
           />
           <h3>Awareness & Sensitization Programs</h3>
@@ -230,7 +229,7 @@ const Service = () => {
         <div className="ServiceBox">
           <img
             className="ServImg"
-            src="https://cdn.pixabay.com/photo/2017/11/26/15/16/smiley-2979107_640.jpg"
+            src="https://res.cloudinary.com/dttau3ddh/image/upload/v1708184698/WhatsApp_Image_2024-02-17_at_19.41.43_qkk9sq.jpg"
             alt=""
           />
           <h3>Carrier Counselling</h3>
@@ -268,7 +267,7 @@ const Service = () => {
         <div className="ServiceBox">
           <img
             className="ServImg"
-            src="https://cdn.pixabay.com/photo/2017/11/26/15/16/smiley-2979107_640.jpg"
+            src="https://res.cloudinary.com/dttau3ddh/image/upload/v1708184296/descriptiona-3d-cartoonin-this-image-prompt-env-upscaled_k4dsrk.jpg"
             alt=""
           />
           <h3>Addiction and Substance Abuse Counseling</h3>
@@ -316,7 +315,7 @@ const Service = () => {
         <div className="ServiceBox">
           <img
             className="ServImg"
-            src="https://cdn.pixabay.com/photo/2017/11/26/15/16/smiley-2979107_640.jpg"
+            src="https://res.cloudinary.com/dttau3ddh/image/upload/v1708184299/one-adult-women-taking-therapy-from-a-female-thera-upscaled_1_j8jyst.jpg"
             alt=""
           />
           <h3>LGBTQ+ Affirmative Counseling</h3>

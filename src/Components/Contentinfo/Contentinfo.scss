@@ -1,10 +1,11 @@
 .ContentContainer {
-    height: 65vh;
+    // height: 65vh;
     background-color: white;
     display: grid;
     grid-template-columns: 60% 40%;
     padding: 3rem;
     overflow: hidden;
+    height: fit-content;
 
     .Medicacontent {
 
@@ -49,9 +50,21 @@
     }
 
     .DocImg {
-        background-image: url("/public/download.jpg");
+        // background-image: url("https://res.cloudinary.com/dttau3ddh/image/upload/v1708184699/WhatsApp_Image_2024-02-17_at_19.41.42_qaesue.jpg");
         background-size: contain;
-        background-repeat: no-repeat;
+        display: flex;
+        height: 100%;
+        width: 100%;
+        
+    
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 100%;
+            height: fit-content;
+            aspect-ratio: 4/3;
+        object-fit:cover;
+        }
 
     }
 }
