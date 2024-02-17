@@ -7,7 +7,10 @@ export default function Contentinfo() {
 
         <div className='ContentContainer'>
             <div className='Medicacontent'>
-                <h1>Welcome to <img width='40'  src="/logoOnly.svg" alt="" /> Nurture Health Center</h1>
+
+                <h1>Welcome to <img width='40'  src="/logoOnly.svg" alt="" /> Nurture Mental Health</h1>
+
+ 
 
                 <p className='ContentPara'>
                     Lorem uis facilis sed quo cumque numquam suscipit ipsum ipsam sunt sit optio asperiores libero vitae vero amet natus. Nostrum, inventore? Sapiente maiores, a commodi ipsum exercitationem architecto ad magnam eligendi corrupti molestias! Sapiente quae eaque dicta doloribus ratione nostrum recusandae debitis sint veritatis ducimus suscipit nam, perspiciatis pariatur sit, perferendis impedit quaerat magni fugiat maxime labore aliquid?
@@ -26,7 +29,7 @@ export default function Contentinfo() {
                 <button className='Readbtn'>Read More</button>
             </div>
             <div className='DocImg'>
-                          </div>
+            </div>
 
         </div>
 

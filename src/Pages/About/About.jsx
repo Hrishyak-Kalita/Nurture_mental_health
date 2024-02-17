@@ -20,12 +20,12 @@ const About = () => {
         backgroundImage={data?.quote?.backgroundImage}
       />
 
-      <AboutInfo
+      {/* <AboutInfo
         heading={data?.aboutInfo2?.heading}
         content={data?.aboutInfo2?.content}
         imageLink={data?.aboutInfo2?.imageLink}
         icon_name={data?.aboutInfo2?.iconName}
-      />
+      /> */}
       
     </div>
   )
