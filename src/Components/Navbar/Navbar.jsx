@@ -1,4 +1,4 @@
-import React,{ useState, Component } from "react";
+import { useState } from "react";
 import "./Navbar.scss"
 import { IoMenu } from "react-icons/io5";
 import { Link } from "react-router-dom";
@@ -18,9 +18,9 @@ const Navbar = () => {
                <li><Link to="/" className="home-menu">Home</Link></li>
                <li><Link to="/about">About Us</Link></li>
                <li><Link to="/services">Services</Link></li>
-               <li> <Link to="/news">Blogs</Link></li>
+               {/* <li> <Link to="/news">Blogs</Link></li> */}
                <li><Link to="/contact">Contact</Link></li>
-               <li><Link to="/login">Log In</Link></li>
+               {/* <li><Link to="/login">Log In</Link></li> */}
 
             </ul>
          </nav>
@@ -35,9 +35,9 @@ const Navbar = () => {
                <li><Link to="/" className="home-menu">Home</Link></li>
                <li><Link to="/about">About Us</Link></li>
                <li><Link to="/services">Services</Link></li>
-               <li> <Link to="/news">Blogs</Link></li>
+               {/* <li> <Link to="/news">Blogs</Link></li> */}
                <li><Link to="/contact">Contact</Link></li>
-               <li><Link to="/login">Log In</Link></li>
+               {/* <li><Link to="/login">Log In</Link></li> */}
 
                </ul>
             </div> 
