@@ -15,8 +15,8 @@ const Home = () => {
     <div className='home'>
       <ConnectMe phone="9706245997" size='30'/>
       <Carousel />
-      {/* <IntroToAdd /> */}
-      {/* <MedicaIntro /> */}
+      <IntroToAdd />
+      <MedicaIntro />
       <Contentinfo />    
        <Testimonial/>
      {/* <Appointment_img_icon/> */}
