@@ -1,12 +1,12 @@
 import React from "react";
-import {TileDesc} from "../../Components";
+import { TileDesc } from "../../Components";
 import "./Service.scss";
 
 const Service = () => {
   return (
     <>
-    <TileDesc name="OUR SERVICES"/>
-      
+      <TileDesc name="OUR SERVICES" />
+
       <div className="ServiceContainer">
         <div className="ServiceBox">
           <img
@@ -57,58 +57,6 @@ const Service = () => {
         <div className="ServiceBox">
           <img
             className="ServImg"
-            src="https://cdn.pixabay.com/photo/2017/11/26/15/16/smiley-2979107_640.jpg"
-            alt=""
-          />
-          <h3>Addiction and Substance Abuse Counseling</h3>
-          <p className="servicePara">
-            Our services provide compassionate and evidence-based support for
-            individuals facing challenges related to substance use. We
-            understand the complexities of addiction and are dedicated to
-            helping you on your journey to recovery, providing guidance,
-            understanding, and tailored interventions..Key services include :
-            <ul className="service-key-box">
-              <li className="service-key">
-                <span>Assessment & Evaluation</span>
-              </li>
-              <li className="service-key">
-                {" "}
-                <span>CBT</span>
-              </li>
-              
-              
-              <li className="service-key">
-                {" "}
-                <span>Group Therapy Sessions</span>
-              </li>
-              <li className="service-key">
-                {" "}
-                <span>12 Steps Program</span>
-              </li>
-              <li className="service-key">
-                {" "}
-                <span>Individual Counseling</span>
-              </li>
-              <li className="service-key">
-                {" "}
-                <span>Family Counseling and Support</span>
-              </li>
-              <li className="service-key">
-                {" "}
-                <span>Holistic Well-being Approach</span>
-              </li>
-              <li className="service-key">
-                {" "}
-                <span>Breaking Free from Drug, Alcohol Addiction</span>
-              </li>
-            </ul>
-          </p>
-          <button className="readMorebtn">Read More</button>
-        </div>
-
-        <div className="ServiceBox">
-          <img
-            className="ServImg"
             src="https://res.cloudinary.com/dttau3ddh/image/upload/v1708184697/WhatsApp_Image_2024-02-17_at_19.41.42_1_c1gklt.jpg"
             alt=""
           />
@@ -127,8 +75,7 @@ const Service = () => {
                 {" "}
                 <span>CBT</span>
               </li>
-              
-              
+
               <li className="service-key">
                 {" "}
                 <span>Group Therapy Sessions</span>
@@ -179,7 +126,7 @@ const Service = () => {
                 {" "}
                 <span>Parenting Challenges</span>
               </li>
-              
+
               <li className="service-key">
                 {" "}
                 <span>Crisis and Trauma</span>
@@ -188,7 +135,7 @@ const Service = () => {
                 {" "}
                 <span>Grief and Loss</span>
               </li>
-              
+
               <li className="service-key">
                 {" "}
                 <span>Blended Family Adjustments</span>
@@ -216,7 +163,6 @@ const Service = () => {
             communication, strengthen connections, and navigate challenges
             together. Key services include :
             <ul className="service-key-box">
-              
               <li className="service-key">
                 {" "}
                 <span>Conflict Resolution</span>
@@ -311,7 +257,7 @@ const Service = () => {
                 {" "}
                 <span>Gender Equality</span>
               </li>
-              
+
               <li className="service-key">
                 {" "}
                 <span>Social Justice</span>
@@ -324,7 +270,50 @@ const Service = () => {
                 {" "}
                 <span>Well-being and Self-Care</span>
               </li>
-             
+            </ul>
+          </p>
+          <button className="readMorebtn">Read More</button>
+        </div>
+
+        <div className="ServiceBox">
+          <img
+            className="ServImg"
+            src="https://res.cloudinary.com/dttau3ddh/image/upload/v1708184299/one-adult-women-taking-therapy-from-a-female-thera-upscaled_1_j8jyst.jpg"
+            alt=""
+          />
+          <h3>Admission to Rehabilitation Center Services</h3>
+          <p className="servicePara">
+            Our services provide a safe, inclusive, and affirming space for
+            individuals within the LGBTQ+ community. We understand the unique
+            challenges and experiences faced by this diverse community and are
+            committed to offering support, understanding, and empowerment.
+            Whether you're navigating issues related to identity, relationships,
+            or mental health, our counselors are here to assist you on your
+            journey.Key services include :
+            <ul className="service-key-box">
+              <li className="service-key">
+                <span>Pre-Admission Assessment</span>
+              </li>
+              <li className="service-key">
+                {" "}
+                <span>Admission Guidance and Support</span>
+              </li>
+              <li className="service-key">
+                {" "}
+                <span>Personalized Treatment Planning</span>
+              </li>
+              <li className="service-key">
+                {" "}
+                <span>24/7 Professional Monitoring</span>
+              </li>
+              <li className="service-key">
+                {" "}
+                <span>Therapeutic Interventions</span>
+              </li>
+              <li className="service-key">
+                {" "}
+                <span> Family Involvement and Support</span>
+              </li>
             </ul>
           </p>
           <button className="readMorebtn">Read More</button>
@@ -343,7 +332,6 @@ const Service = () => {
             personalized guidance to empower you on your professional
             journey.Our Career Exploration Services include:
             <ul className="service-key-box">
-              
               <li className="service-key">
                 {" "}
                 <span>Industry Insights & Trends</span>
@@ -367,55 +355,6 @@ const Service = () => {
           </p>
           <button className="readMorebtn">Read More</button>
         </div>
-
-        <div className="ServiceBox">
-          <img
-            className="ServImg"
-            src="https://res.cloudinary.com/dttau3ddh/image/upload/v1708184296/descriptiona-3d-cartoonin-this-image-prompt-env-upscaled_k4dsrk.jpg"
-            alt=""
-          />
-          <h3>Addiction and Substance Abuse Counseling</h3>
-          <p className="servicePara">
-            Our services provide compassionate and evidence-based support for
-            individuals facing challenges related to substance use. We
-            understand the complexities of addiction and are dedicated to
-            helping you on your journey to recovery, providing guidance,
-            understanding, and tailored interventions..Key services include :
-            <ul className="service-key-box">
-              <li className="service-key">
-                <span>Assessment & Evaluation</span>
-              </li>
-              <li className="service-key">
-                {" "}
-                <span>CBT</span>
-              </li>
-              <li className="service-key">
-                {" "}
-                <span>Group Therapy Sessions</span>
-              </li>
-              
-              
-              <li className="service-key">
-                {" "}
-                <span>12 Steps Program</span>
-              </li>
-              <li className="service-key">
-                {" "}
-                <span>Individual Counseling</span>
-              </li>
-              <li className="service-key">
-                {" "}
-                <span>Family Counseling and Support</span>
-              </li>
-              <li className="service-key">
-                {" "}
-                <span>Holistic Well-being Approach</span>
-              </li>
-            </ul>
-          </p>
-          <button className="readMorebtn">Read More</button>
-        </div>
-       
 
         <div className="ServiceBox">
           <img
