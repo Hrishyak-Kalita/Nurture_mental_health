@@ -18,7 +18,9 @@ const Home = () => {
       <Carousel />
       <IntroToAdd />
       <MedicaIntro />
-      <Contentinfo />
+
+      <Contentinfo />    
+
        <Testimonial/>
      {/* <Appointment_img_icon/> */}
 
