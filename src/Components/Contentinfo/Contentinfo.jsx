@@ -1,34 +1,45 @@
-import React from 'react'
-import './Contentinfo.scss'
-
+import React from "react";
+import "./Contentinfo.scss";
 
 export default function Contentinfo() {
-    return (
+  return (
+    <div className="ContentContainer">
+      <div className="Medicacontent">
+        <h1>
+          Welcome to <img width="40" src="/logoOnly.svg" alt="" /> Nurture
+          Mental Health
+        </h1>
 
-        <div className='ContentContainer'>
-            <div className='Medicacontent'>
-                <h1>Welcome to <img width='40'  src="/logoOnly.svg" alt="" /> Nurture Mental Health</h1>
+        <p className="ContentPara">
+        At  Nurture Mental Health we are dedicated to fostering mental well-being and creating a supportive community where individuals can thrive. Established with a commitment to  promote mental health awareness, providing accessible counseling, etc., we are here to guide and support you on your journey to a healthier, more fulfilling life.
+        </p>
 
-                <p className='ContentPara'>
-                    Lorem uis facilis sed quo cumque numquam suscipit ipsum ipsam sunt sit optio asperiores libero vitae vero amet natus. Nostrum, inventore? Sapiente maiores, a commodi ipsum exercitationem architecto ad magnam eligendi corrupti molestias! Sapiente quae eaque dicta doloribus ratione nostrum recusandae debitis sint veritatis ducimus suscipit nam, perspiciatis pariatur sit, perferendis impedit quaerat magni fugiat maxime labore aliquid?
-                </p>
-
-                <ul>
-                    <li> <span>Service 1</span></li>
-                    <li> <span>Service 2</span></li>
-                    <li> <span>Service 3</span></li>
-                    <li> <span>Service 4</span></li>
-                    <li> <span>Service 5</span></li>
-                
-
-
-                </ul>
-                <button className='Readbtn'>Read More</button>
-            </div>
-            <div className='DocImg'>
-            </div>
-
-        </div>
-
-    )
+        < ul className="li_el_box">
+          <li className="li_el">
+            {" "}
+            <span>Service 1</span>
+          </li>
+          <li className="li_el">
+            {" "}
+            <span>Service 2</span>
+          </li>
+          <li className="li_el">
+            {" "}
+            <span>Service 3</span>
+          </li>
+          <li className="li_el">
+            {" "}
+            <span>Service 4</span>
+          </li>
+          <li className="li_el">
+            {" "}
+            <span>Service 5</span>
+          </li>
+        </ul>
+        <button className="Readbtn">Read More</button>
+      </div>
+      <div className="DocImg">
+      </div>
+    </div>
+  );
 }

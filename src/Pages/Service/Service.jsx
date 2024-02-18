@@ -61,6 +61,58 @@ const Service = () => {
             src="https://cdn.pixabay.com/photo/2017/11/26/15/16/smiley-2979107_640.jpg"
             alt=""
           />
+          <h3>Addiction and Substance Abuse Counseling</h3>
+          <p className="servicePara">
+            Our services provide compassionate and evidence-based support for
+            individuals facing challenges related to substance use. We
+            understand the complexities of addiction and are dedicated to
+            helping you on your journey to recovery, providing guidance,
+            understanding, and tailored interventions..Key services include :
+            <ul className="service-key-box">
+              <li className="service-key">
+                <span>Assessment & Evaluation</span>
+              </li>
+              <li className="service-key">
+                {" "}
+                <span>CBT</span>
+              </li>
+              
+              
+              <li className="service-key">
+                {" "}
+                <span>Group Therapy Sessions</span>
+              </li>
+              <li className="service-key">
+                {" "}
+                <span>12 Steps Program</span>
+              </li>
+              <li className="service-key">
+                {" "}
+                <span>Individual Counseling</span>
+              </li>
+              <li className="service-key">
+                {" "}
+                <span>Family Counseling and Support</span>
+              </li>
+              <li className="service-key">
+                {" "}
+                <span>Holistic Well-being Approach</span>
+              </li>
+              <li className="service-key">
+                {" "}
+                <span>Breaking Free from Drug, Alcohol Addiction</span>
+              </li>
+            </ul>
+          </p>
+          <button className="readMorebtn">Read More</button>
+        </div>
+
+        <div className="ServiceBox">
+          <img
+            className="ServImg"
+            src="https://cdn.pixabay.com/photo/2017/11/26/15/16/smiley-2979107_640.jpg"
+            alt=""
+          />
           <h3>Family Therapy</h3>
           <p className="servicePara">
             We understand the importance of family dynamics in shaping
@@ -190,7 +242,7 @@ const Service = () => {
             src="https://cdn.pixabay.com/photo/2017/11/26/15/16/smiley-2979107_640.jpg"
             alt=""
           />
-          <h3>Awareness & Sensitization Programs</h3>
+          <h3>Volunteer at Our Awareness & Sensitization Programs</h3>
           <p className="servicePara">
             We are committed to fostering awareness and promoting sensitization
             on important issues. Our programs aim to educate, empower, and
@@ -198,7 +250,7 @@ const Service = () => {
             services include :
             <ul className="service-key-box">
               <li className="service-key">
-                <span>Mental Health Awareness</span>
+                <span>Awareness about Mental Health</span>
               </li>
               <li className="service-key">
                 {" "}
@@ -265,53 +317,7 @@ const Service = () => {
           <button className="readMorebtn">Read More</button>
         </div>
 
-        <div className="ServiceBox">
-          <img
-            className="ServImg"
-            src="https://cdn.pixabay.com/photo/2017/11/26/15/16/smiley-2979107_640.jpg"
-            alt=""
-          />
-          <h3>Addiction and Substance Abuse Counseling</h3>
-          <p className="servicePara">
-            Our services provide compassionate and evidence-based support for
-            individuals facing challenges related to substance use. We
-            understand the complexities of addiction and are dedicated to
-            helping you on your journey to recovery, providing guidance,
-            understanding, and tailored interventions..Key services include :
-            <ul className="service-key-box">
-              <li className="service-key">
-                <span>Assessment & Evaluation</span>
-              </li>
-              <li className="service-key">
-                {" "}
-                <span>CBT</span>
-              </li>
-              <li className="service-key">
-                {" "}
-                <span>Group Therapy Sessions</span>
-              </li>
-              
-              
-              <li className="service-key">
-                {" "}
-                <span>12 Steps Program</span>
-              </li>
-              <li className="service-key">
-                {" "}
-                <span>Individual Counseling</span>
-              </li>
-              <li className="service-key">
-                {" "}
-                <span>Family Counseling and Support</span>
-              </li>
-              <li className="service-key">
-                {" "}
-                <span>Holistic Well-being Approach</span>
-              </li>
-            </ul>
-          </p>
-          <button className="readMorebtn">Read More</button>
-        </div>
+       
 
         <div className="ServiceBox">
           <img

@@ -24,12 +24,12 @@
             margin: 2rem 1rem 0 0rem;
         }
 
-        ul {
+        .li_el_box {
             display: grid;
             grid-template-columns: 50% 50%;
             margin: 2rem 0rem 2rem 1rem;
 
-            li {
+            .li_el {
                 list-style: inherit;
                 color: blue;
 
