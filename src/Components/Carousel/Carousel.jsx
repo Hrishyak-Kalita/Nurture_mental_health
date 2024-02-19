@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import './Carousel.scss'
-import Img1 from './Images/carousel-doctor.jpg'
 
 
 const Carousel = () => {

@@ -25,7 +25,7 @@
 .ServiceContainer {
     padding: 5rem;
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: repeat( auto-fit, minmax(450px, 1fr) );
 
     .ServiceBox {
         height: fit-content;
@@ -44,10 +44,13 @@
         
         .service-key-box {
             display: grid;
-            grid-template-columns: 50% 50%;
+            grid-template-columns: 1fr 1fr;
+
+            width: fit-content;
             padding: 1.5rem 0 1rem 1rem;
             .service-key {
                 list-style: inherit;
+                text-overflow: ellipsis;
                 color: rgb(46, 46, 62);
                 padding: 0 0.5rem 0 0.2rem;
                 span {
