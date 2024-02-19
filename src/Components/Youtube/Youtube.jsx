@@ -1,5 +1,4 @@
 import React from 'react';
-import '@splidejs/splide/css';
 import './Youtube.scss'
 import { ElfsightWidget } from 'react-elfsight-widget';
 const Youtube = ({ width, height }) => {

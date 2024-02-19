@@ -30,7 +30,7 @@
                 list-style: inherit;
                 text-overflow: ellipsis;
                 color: rgb(46, 46, 62);
-                padding: 0 0.5rem 0 0.2rem;
+                padding: 0 5rem 0 0.2rem;
                 span {
                     font-size: 14px;
                     padding:0  0.8rem 0 0;
@@ -68,6 +68,17 @@
         grid-template-columns: 50% 50%;
         padding: 2rem;
         justify-content: center;
+        .ServiceBox {
+            
+            .service-key-box {
+                display: grid;
+                grid-template-columns: 100%;
+                .service-key{
+                    padding: 0 0.5rem 0 0.2rem;
+                }
+                
+            }
+        }
     }
 
 
@@ -83,6 +94,9 @@
             .service-key-box {
                 display: grid;
                 grid-template-columns: 100%;
+                .service-key{
+                    padding: 0 0.5rem 0 0.2rem;
+                }
                 
             }
         }
