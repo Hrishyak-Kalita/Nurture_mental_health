@@ -10,7 +10,7 @@ const Footer = () => {
     <div className='footer'>
       <img className="logo" src="./LogoHome.svg" alt="medica logo" />
       <div className="first">
-        <p className="footer_des">Phasellus at nunc orci. Donec ipsum metus, pharetra quis nunc sit amet, maximus vehicula nibh. Praesent pulvinar porta elit, a commodo erat accumsan sed. Vivamus vel tristique nibh.</p>
+        <p className="footer_des">Whether you're seeking support, interested in our workshops, or looking to contribute to our mission, we invite you to contact us, attend an event, donate, etc. Together, let's build a healthier and more resilient community.</p>
         <div className="footer_icons">
           <a href="https://www.youtube.com/@nurturementalhealthwithlim7868">
             <Icon icon="mdi:youtube" color="white" />
