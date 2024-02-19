@@ -8,8 +8,8 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className='footer'>
+      <img className="logo" src="./LogoHome.svg" alt="medica logo" />
       <div className="first">
-        <img className="logo" src="./LogoHome.svg" alt="medica logo" />
         <p className="footer_des">Phasellus at nunc orci. Donec ipsum metus, pharetra quis nunc sit amet, maximus vehicula nibh. Praesent pulvinar porta elit, a commodo erat accumsan sed. Vivamus vel tristique nibh.</p>
         <div className="footer_icons">
           <Icon icon="mdi:instagram" color="white" />
@@ -19,7 +19,7 @@ const Footer = () => {
         </div>
 
       </div>
-      <div className="second containerStyles">
+      {/* <div className="second containerStyles">
         <h3> LATEST NEWS</h3>
         <div className="newComponents">
           {data?.map(news => (
@@ -27,8 +27,8 @@ const Footer = () => {
 
           ))}
         </div>
-      </div>
-      <div className="third containerStyles">
+      </div> */}
+      {/* <div className="third containerStyles">
         <h3>USEFULL LINKS</h3>
         <div className="linksContainer">
 
@@ -41,11 +41,11 @@ const Footer = () => {
           <Link className="link">Testimonials</Link>
         </div>
 
-      </div>
+      </div> */}
 
-      <div className="containerStyles">
+      {/* <div className="containerStyles">
         <ContactUsFooter bgColor="none"/>
-      </div>
+      </div> */}
     </div>
   )
 }

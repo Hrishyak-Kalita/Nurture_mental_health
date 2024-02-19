@@ -2,7 +2,7 @@
 .about_container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    padding: 3rem 1rem;
+    padding: 2rem 1rem;
     
     .content{
        .heading{
@@ -15,28 +15,30 @@
         font-size: 1.1rem;
         color: rgb(89, 89, 89);
        }
-        padding: 5% 10%;
+        padding: 5% 4%;
 
     }
 
     .aboutImage{
-        padding: 1rem;
+        padding:1rem 0;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        justify-content: space-evenly;
        
         img{
-
-            aspect-ratio: 16/9;
+            aspect-ratio: 4/3;
             object-fit: cover;
-            width: 85%;
+            width: 90%;
             padding: 1rem 0;
         }
     }
     
     .about1{
-        padding: 1rem;
+        padding: 1rem 0;
+        .mainAboutHeading{
+            font-size: 2.5rem;
+        }
     }
 }
 
