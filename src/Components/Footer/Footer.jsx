@@ -12,10 +12,16 @@ const Footer = () => {
       <div className="first">
         <p className="footer_des">Phasellus at nunc orci. Donec ipsum metus, pharetra quis nunc sit amet, maximus vehicula nibh. Praesent pulvinar porta elit, a commodo erat accumsan sed. Vivamus vel tristique nibh.</p>
         <div className="footer_icons">
-          <Icon icon="mdi:instagram" color="white" />
-          <Icon icon="mdi:linkedin" color="white" />
-          <Icon icon="ic:baseline-facebook" color="white" />
-          <Icon icon="iconoir:x" color="white" />
+          <a href="https://www.youtube.com/@nurturementalhealthwithlim7868">
+            <Icon icon="mdi:youtube" color="white" />
+          </a>
+          <a href="/">
+            <Icon icon="mdi:instagram" color="white" />
+          </a>
+          <a href="/">
+            <Icon icon="ic:baseline-facebook" color="white" />
+          </a>
+          
         </div>
 
       </div>

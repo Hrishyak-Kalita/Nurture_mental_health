@@ -1,4 +1,4 @@
-.contactCard{
+.contactCard {
     height: fit-content;
     border: 1px solid rgb(235, 235, 235);
     padding: 1rem 1rem;
@@ -6,11 +6,17 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-
-    .callConnect{
-        display: flex;
-        justify-content: center
+    background: rgb(116,235,254);
+background: linear-gradient(0deg, rgba(116,235,254,0.5382746848739496) 0%, rgba(88,244,104,0.6335127801120448) 100%);
+    .designation {
+        color: #0657a2;
+        padding: 0.3rem 0;
     }
-    
+
+    .callConnect {
+        display: flex;
+        justify-content: space-around;
+    }
+
 
 }
