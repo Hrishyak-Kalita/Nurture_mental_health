@@ -2,15 +2,15 @@ import React from "react";
 import { TileDesc, Quote } from "../../Components";
 import "./Service.scss";
 import serviceData from "../../assets/services.json"
+import ConnectWhatsapp from "../../Components/Connect/ConnectWhatsapp";
+import ConnectPhone from "../../Components/Connect/ConnectPhone";
 
 
 const Service = () => {
 
   return (
     <>
-      <TileDesc name="OUR SERVICES" description="SERVICES"/>
-
-      {/* <TileDesc name="OUR SERVICES" /> */}
+   
       <Quote heading="Our Services" subHeading="Get the best Therapy and Counselling"/>
 
 
@@ -37,7 +37,10 @@ const Service = () => {
                 )}
               </ul>
             </p>
-            <button className="readMorebtn">Read More</button>
+            <div className="service_btn">
+              <ConnectWhatsapp className="s_btn"/>
+              <ConnectPhone className="s_btn"/>
+              </div>
           </div>
         )}
 

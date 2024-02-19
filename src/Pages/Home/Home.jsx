@@ -18,9 +18,7 @@ const Home = () => {
 
       <Contentinfo />    
 
-       <Testimonial/>
-       <Youtube width={50} height={35} />
-     {/* <Appointment_img_icon/> */}
+       <Youtube/>
      <FixedContact/>
 
 
