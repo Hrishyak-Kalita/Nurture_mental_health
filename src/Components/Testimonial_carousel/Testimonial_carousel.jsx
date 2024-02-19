@@ -38,11 +38,14 @@ const Testimonial_carousel = () => {
         }}
         breakpoints={{
           300: {
-            slidesPerView: 1.5,
+            slidesPerView: 1,
           },
           740: {
-            slidesPerView: 3,
+            slidesPerView: 1.5,
           },
+          1092:{
+            slidesPerView:3,
+          }
         }}
 
         // swiper end

@@ -1,5 +1,6 @@
 .Container {
     padding-top: 3vw;
+    height: fit-content;
     .title {
       text-align: center;
       font-size: 3vw;
@@ -33,7 +34,7 @@
   }
   
   .Box {
-    height: 100%;
+    height: fit-content;
     filter: grayscale(50%);
     transition: all 0.25s;
   
@@ -102,7 +103,7 @@
     }
   
     .MySwiper {
-      height: 50vh;
+      // height: 50vh;
       padding: 5% 5% 10% 5%;
     }
   
