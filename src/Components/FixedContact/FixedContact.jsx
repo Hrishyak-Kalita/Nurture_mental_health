@@ -21,13 +21,14 @@ const FixedContact = () => {
 
             <Popover
                 //content={<a onClick={hide}>X</a>}
+                placement="leftTop"
                 title={<ContactCard/>}
                 trigger="click"
                 open={open}
                 onOpenChange={handleOpenChange}
             >
                 <Button className='popbtn'>
-                <Icon width={20} icon="material-symbols-light:add-call-sharp" />
+                <Icon icon="jam:whatsapp" width="30" style={{color: "#5ca206"}} />
 
                 </Button>
             </Popover>
