@@ -81,7 +81,7 @@
             width: 100%;
             padding: 0;
 
-            ul {
+            .li_el_box {
 
                 margin: 1rem ;
                 justify-content: center;
@@ -102,12 +102,11 @@
         .Medicacontent {
             padding: 1rem ;
 
-            ul {
-                display: block;
+            .li_el_box {
+                display: grid;
+                grid-template-columns: 100%;
             }
         }
-
-
 
     }
 }
