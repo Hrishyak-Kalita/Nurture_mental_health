@@ -105,18 +105,7 @@
             .service-key-box {
                 display: grid;
                 grid-template-columns: 100%;
-                padding: 1.5rem 0 1rem 1rem;
-                .service-key {
-                    list-style: inherit;
-                    color: rgb(46, 46, 62);
-                    padding: 0 0.5rem 0 0.2rem;
-                    span {
-                        font-size: 14px;
-                        padding:0  0.8rem 0 0;
-    
-                        color: black;
-                    }
-                }
+                
             }
         }
 

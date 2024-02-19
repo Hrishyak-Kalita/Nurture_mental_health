@@ -1,72 +1,62 @@
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-.footer{
-    border: 0.1rem solid black;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
-    background-color: #172538;
-    padding: 5%;
-    height: fit-content;
 
-    .containerStyles{
+  .footer {
+      border: 0.1rem solid black;
+      // display: grid;
+      // grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+      background-color: #172538;
+      padding: 5%;
+      height: fit-content;
 
-        color: white;
-        font-family: 'Poppins', sans-serif;
-        padding: 3rem 1rem;
-        @media only screen and (max-width: 600px) {
-            padding: 1rem 1rem;
+      .logo {
+          width: 13rem;
+          margin: auto;
+      }
 
-        }
-            
+      // .containerStyles{
 
-    }
+      //     color: white;
+      //     font-family: 'Poppins', sans-serif;
+      //     padding: 3rem 1rem;
+      //     @media only screen and (max-width: 600px) {
+      //         padding: 1rem 1rem;
 
-    .first{
-        
-        
-        .logo{
-            width: 13rem;
-            margin-bottom: 2rem;
-        }
-        .footer_des{
-            padding: 0.5rem 0;
-            color: white;
-            font-size: 1rem;
-            font-family: 'Poppins', sans-serif;
-            line-height: 2rem;
-        }
-        .footer_icons{
-            display: flex;
-            padding: 0 4rem;
-            justify-content: space-around;
-        }
-    }
+      //     }
 
 
-    .second{
-        
-        .newComponents{
-            padding: 1.7rem 0;
-        }
-        
-    }
+      // }
 
-    .third{
-       
-        .linksContainer{
-            padding: 1.2rem 0;
-        }
-
-        .link{
-            display: block;
-            color: white;
-            text-decoration: none;
-            padding: 0.5rem;
-            font-weight: bolder;
-        }
-
-    }
+      .first {
 
 
-    
+          .footer_des {
+              padding: 0.5rem 0;
+              color: white;
+              font-size: 1rem;
+              font-family: 'Poppins', sans-serif;
+              line-height: 2rem;
 
-}
+              @media screen and (max-width:600px) {
+                  text-align: justify;
+
+              }
+          }
+
+          .footer_icons {
+              width: 50%;
+              display: flex;
+              margin: auto;
+              padding: 0 4rem;
+              justify-content: space-around;
+              align-items: center;
+
+              @media screen and (max-width:600px) {
+
+                  width: 100%;
+
+              }
+          }
+      }
+
+
+  }
