@@ -18,7 +18,8 @@ import LoginForm from "./LoginForm/LoginForm";
 import Testimonial from "./Testimonial/Testimonial"
 // import BookAppointment from "./BookAppointment/BookAppointment";
 import Appointment_img_icon from "./Appointment_img-icon/Appointment_img_icon";
-import ConnectMe from "./Connect/Connect";
-import ConnectCall from "./ConnectCall/ConnectCall";
 
-export { Navbar, Footer, Button,Testimonial, NewsPreview, ContactUsFooter,Appointment_img_icon, TileDesc, Quote, AboutInfo, Cards, TeamCardHolder, ScrollToTop, LoginForm,IntroToAdd,MedicaIntro,Contentinfo,ConnectMe,ConnectCall}
+import FixedContact from "./FixedContact/FixedContact";
+import Youtube from "./Youtube/Youtube";
+
+export { Navbar, Footer, Button,Testimonial, NewsPreview, ContactUsFooter,Appointment_img_icon, TileDesc, Quote, AboutInfo, Cards, TeamCardHolder, ScrollToTop, LoginForm,IntroToAdd,MedicaIntro,Contentinfo,FixedContact,Youtube}
