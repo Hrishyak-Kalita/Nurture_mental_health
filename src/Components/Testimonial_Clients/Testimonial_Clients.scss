@@ -1,0 +1,28 @@
+.main_container {
+//   background-color: rgb(14, 235, 29);
+  .clients {
+    background-color: rgb(144, 200, 250);
+    margin: 3rem;
+    padding: 3rem;
+    border-radius: 2%;
+    box-shadow: 5px;
+    .image {
+      margin: 1rem;
+      width: 50%;
+      margin: auto;
+      img {
+        border-radius: 50%;
+        aspect-ratio: 1/1;
+      }
+    }
+    .name { 
+      .client_name {
+        padding-top: 2rem;
+        justify-items: center;
+      }
+    }
+    .contain{
+        padding: 1.5rem 0;
+    }
+  }
+}
