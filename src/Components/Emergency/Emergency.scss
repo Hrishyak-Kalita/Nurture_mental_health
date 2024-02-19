@@ -1,15 +1,28 @@
 .Emer {
-    height: 100%;
+    // height: 100%;
     background-color: rgb(35, 185, 244);
     padding: 2rem 2rem;
     color: whitesmoke;
+    height: fit-content;
+
+    .emHead{
+        // padding: 1rem 0;
+        text-align: center;
+    }
+
+    .emSubHead{
+        text-align: center;
+    }
 
     h3 {
         color: black;
     }
 
     .EmerPara {
-        padding: 1rem 0rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5rem 0;
     }
 
     .readMorebtn {

@@ -31,17 +31,15 @@ const Carousel = () => {
             {data.map((item, index) => {
                return (
                   <>
-
                      <div className='button-div'>
                         <div className="description">
-                           <p className='heading-name'>We Provide top<br /> Medical Services </p>
-                           <p className='Heading-Description'>More than 30 professionals</p>
+                           <p className='heading-name'>Nurture Mental Health </p>
+                           <p className='Heading-Description'><span className='midStyle'>with</span> Limpee Kalita </p>
                         </div>
-                        <div className="all-button">
+                        {/* <div className="all-button">
                            <button className='appointment'>Make an Appointment</button>
                            <button className='read-more'>Read More</button>
-                        </div>
-
+                        </div> */}
                      </div>
 
                      <div className='carousel-item'

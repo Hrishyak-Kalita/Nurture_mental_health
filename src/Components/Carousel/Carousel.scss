@@ -43,10 +43,18 @@
             line-height: 1.2;
             letter-spacing: 4px;
             overflow:inherit;
+            color: white;
+            text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.31);
       
          }
          .Heading-Description{
             font-size: 1.2rem;
+            color: rgb(240, 129, 129);
+            text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.31);
+            .midStyle{
+               color: white;
+               text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.31);
+            }
          }
       }
       
