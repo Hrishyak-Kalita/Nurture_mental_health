@@ -6,7 +6,7 @@ const Quote = ({ heading, subHeading, bgImage, buttonTitle }) => {
         BGSetter();
     })
 
-    const [bg_Image, setBg] = useState("https://img.freepik.com/free-photo/doctor-with-stethoscope-hands-hospital-background_1423-1.jpg?w=1380&t=st=1703229609~exp=1703230209~hmac=8ea399a4767d9159a19245c74f0413fbe1b000e29686cd91c6bbc815be7012eb")
+    const [bg_Image, setBg] = useState("https://res.cloudinary.com/dttau3ddh/image/upload/v1708332818/a-female-therapist-sitting-in-her-chamber-alone-in-upscaled_1_v9pffu.jpg")
 
     const BGSetter = () => {
         if (bgImage != null) {
@@ -22,9 +22,9 @@ const Quote = ({ heading, subHeading, bgImage, buttonTitle }) => {
                     <h1>{heading}</h1>
                     <p>{subHeading}</p>
                 </div>
-                <div className="aptBtn centerUsingFlex">
+                {/* <div className="aptBtn centerUsingFlex">
                     <button>{buttonTitle}</button>
-                </div>
+                </div> */}
             </div>
         </div>
     )

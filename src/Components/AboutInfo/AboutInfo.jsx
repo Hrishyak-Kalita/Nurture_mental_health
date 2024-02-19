@@ -1,25 +1,22 @@
 import { Icon } from "@iconify/react";
 import React from "react";
 import "./AboutInfo.scss";
-const AboutInfo = ({ heading, content, imageLink, icon_name }) => {
+const AboutInfo = ({ heading, content, imageLink1,imageLink2, icon_name }) => {
   return (
     <div className="about_container ">
       <div className="content centerElements">
         <div className="About_box">
-          <Icon icon={icon_name} width="100" color="#48b0e0" />
-
           <div className="about1">
-            <h1>
+            <h1 className="mainAboutHeading">
               Welcome to <img width="40" src="/logoOnly.svg" alt="" /> Nurture
               Mental Health
             </h1>
 
             <p>
-              At [Your Organization Name], we are passionate about [briefly
-              describe the main focus or mission of your organization, e.g.,
-              promoting mental health, fostering a supportive community, etc.].
-              Founded on the principles of [list a few core values, e.g.,
-              empathy, inclusivity, integrity], we are dedicated to making a
+              At Nurture Mental Health, we are passionate about
+              promoting mental health, fostering a supportive community, etc.
+              Founded on the principles of
+              empathy, inclusivity, integrity, we are dedicated to making a
               positive impact on the mental well-being of individuals and the
               community.
             </p>
@@ -38,9 +35,9 @@ const AboutInfo = ({ heading, content, imageLink, icon_name }) => {
             <h2>Community Engagement</h2>
             <p>
               Beyond individual counseling, we actively engage with the
-              community through [describe community initiatives, e.g.,
+              community through
               workshops, outreach programs, collaborations with local
-              organizations]. By fostering connections and spreading awareness,
+              organizations. By fostering connections and spreading awareness,
               we aim to create a culture of mental health understanding and
               support.
             </p>
@@ -49,9 +46,7 @@ const AboutInfo = ({ heading, content, imageLink, icon_name }) => {
             <h2>Transformative Stories</h2>
             <p>
               Discover the impact of our work through the stories of individuals
-              who have found healing and support at [Your Organization Name].
-              [Include brief testimonials or success stories to showcase
-              positive outcomes.]
+              who have found healing and support at Nurture Mental Health.
             </p>
           </div>
           <div className="about1">
@@ -70,8 +65,8 @@ const AboutInfo = ({ heading, content, imageLink, icon_name }) => {
         </div>
       </div>
       <div className="aboutImage">
-        <img src={imageLink} alt="blog info descriptor" />
-        <img src={imageLink} alt="blog info descriptor" />
+        <img src={imageLink1} alt="blog info descriptor" />
+        <img src={imageLink2} alt="blog info descriptor" />
         {/* <img src={imageLink} alt="blog info descriptor" /> */}
       </div>
     </div>

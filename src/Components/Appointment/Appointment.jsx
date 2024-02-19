@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react'
-import { ConnectMe } from '..'
+
 import './Appointment.scss'
 const Appointment = ({ title }) => {
     return (
@@ -10,7 +10,6 @@ const Appointment = ({ title }) => {
             {/* <input type="number" placeholder="Phone" className="input" id="no" /> */}
             {/* <input type="email" placeholder="Email" className="input" id="mail" /> */}
             </div>
-            <ConnectMe/>
         </div>
     )
 }

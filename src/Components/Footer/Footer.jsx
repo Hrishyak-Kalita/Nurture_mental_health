@@ -8,18 +8,24 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className='footer'>
+      <img className="logo" src="./LogoHome.svg" alt="medica logo" />
       <div className="first">
-        <img className="logo" src="./LogoHome.svg" alt="medica logo" />
         <p className="footer_des">Phasellus at nunc orci. Donec ipsum metus, pharetra quis nunc sit amet, maximus vehicula nibh. Praesent pulvinar porta elit, a commodo erat accumsan sed. Vivamus vel tristique nibh.</p>
         <div className="footer_icons">
-          <Icon icon="mdi:instagram" color="white" />
-          <Icon icon="mdi:linkedin" color="white" />
-          <Icon icon="ic:baseline-facebook" color="white" />
-          <Icon icon="iconoir:x" color="white" />
+          <a href="https://www.youtube.com/@nurturementalhealthwithlim7868">
+            <Icon icon="mdi:youtube" color="white" />
+          </a>
+          <a href="/">
+            <Icon icon="mdi:instagram" color="white" />
+          </a>
+          <a href="/">
+            <Icon icon="ic:baseline-facebook" color="white" />
+          </a>
+          
         </div>
 
       </div>
-      <div className="second containerStyles">
+      {/* <div className="second containerStyles">
         <h3> LATEST NEWS</h3>
         <div className="newComponents">
           {data?.map(news => (
@@ -27,8 +33,8 @@ const Footer = () => {
 
           ))}
         </div>
-      </div>
-      <div className="third containerStyles">
+      </div> */}
+      {/* <div className="third containerStyles">
         <h3>USEFULL LINKS</h3>
         <div className="linksContainer">
 
@@ -41,11 +47,11 @@ const Footer = () => {
           <Link className="link">Testimonials</Link>
         </div>
 
-      </div>
+      </div> */}
 
-      <div className="containerStyles">
+      {/* <div className="containerStyles">
         <ContactUsFooter bgColor="none"/>
-      </div>
+      </div> */}
     </div>
   )
 }
