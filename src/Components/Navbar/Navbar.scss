@@ -14,9 +14,7 @@
     margin: 0 2rem 0 0;
     color: black;
   }
-    .home-menu{
-    color: rgb(0, 128, 255);
-  }
+
    a:hover{
      color: rgb(1, 149, 255);
   }
@@ -77,6 +75,9 @@ header{
     width: 95%;
     margin:  auto;
     border-radius: 5px;
+    border-bottom: 0.001rem solid rgb(239, 239, 239);
+    border-left: 0.001rem solid rgb(239, 239, 239);
+    border-right: 0.001rem solid rgb(239, 239, 239);
   }
   
   ul{
@@ -107,6 +108,8 @@ header{
   .navbar-button{ margin-right: 15px;}
 
   header{
+  padding: 0 2% 0 2%;
+    
     img{
       transform: ease-in 1s;
       height: 45px;

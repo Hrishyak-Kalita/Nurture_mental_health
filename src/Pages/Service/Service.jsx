@@ -8,8 +8,11 @@ const Service = () => {
 
   return (
     <>
+      <TileDesc name="OUR SERVICES" description="SERVICES"/>
+
       {/* <TileDesc name="OUR SERVICES" /> */}
       <Quote heading="Our Services" subHeading="Get the best Therapy and Counselling"/>
+
 
       <div className="ServiceContainer">
         {serviceData?.map((item) =>
