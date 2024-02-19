@@ -43,8 +43,9 @@
         .Readbtn {
             background-color: rgb(18, 76, 237);
             color: aliceblue;
-            height: 2rem;
-            width: 6rem;
+            height: fit-content;
+            border-radius: 5%;
+            padding: 1rem;
             cursor: pointer;
         }
     }
