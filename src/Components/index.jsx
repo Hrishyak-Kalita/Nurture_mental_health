@@ -20,5 +20,6 @@ import Testimonial from "./Testimonial/Testimonial"
 import Appointment_img_icon from "./Appointment_img-icon/Appointment_img_icon";
 
 import FixedContact from "./FixedContact/FixedContact";
+import Youtube from "./Youtube/Youtube";
 
-export { Navbar, Footer, Button,Testimonial, NewsPreview, ContactUsFooter,Appointment_img_icon, TileDesc, Quote, AboutInfo, Cards, TeamCardHolder, ScrollToTop, LoginForm,IntroToAdd,MedicaIntro,Contentinfo,FixedContact}
+export { Navbar, Footer, Button,Testimonial, NewsPreview, ContactUsFooter,Appointment_img_icon, TileDesc, Quote, AboutInfo, Cards, TeamCardHolder, ScrollToTop, LoginForm,IntroToAdd,MedicaIntro,Contentinfo,FixedContact,Youtube}
