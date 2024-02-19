@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Contentinfo.scss";
 
 export default function Contentinfo() {
@@ -58,7 +59,11 @@ export default function Contentinfo() {
           </li>
           
         </ul>
-        <button className="Readbtn">Read More</button>
+        <Link to="/services">
+        <button className="Readbtn" >
+           Explore Services
+        </button>
+        </Link>
       </div>
       <div className="DocImg">
         <img

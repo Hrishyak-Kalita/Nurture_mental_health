@@ -1,0 +1,16 @@
+.contactCard{
+    height: fit-content;
+    border: 1px solid rgb(235, 235, 235);
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    .callConnect{
+        display: flex;
+        justify-content: center
+    }
+    
+
+}

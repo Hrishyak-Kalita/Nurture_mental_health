@@ -1,15 +1,13 @@
 import { Icon } from "@iconify/react";
 import React from "react";
 import "./AboutInfo.scss";
-const AboutInfo = ({ heading, content, imageLink, icon_name }) => {
+const AboutInfo = ({ heading, content, imageLink1,imageLink2, icon_name }) => {
   return (
     <div className="about_container ">
       <div className="content centerElements">
         <div className="About_box">
-          <Icon icon={icon_name} width="100" color="#48b0e0" />
-
           <div className="about1">
-            <h1>
+            <h1 className="mainAboutHeading">
               Welcome to <img width="40" src="/logoOnly.svg" alt="" /> Nurture
               Mental Health
             </h1>
@@ -70,8 +68,8 @@ const AboutInfo = ({ heading, content, imageLink, icon_name }) => {
         </div>
       </div>
       <div className="aboutImage">
-        <img src={imageLink} alt="blog info descriptor" />
-        <img src={imageLink} alt="blog info descriptor" />
+        <img src={imageLink1} alt="blog info descriptor" />
+        <img src={imageLink2} alt="blog info descriptor" />
         {/* <img src={imageLink} alt="blog info descriptor" /> */}
       </div>
     </div>

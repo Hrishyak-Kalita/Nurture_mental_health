@@ -1,0 +1,141 @@
+[
+    {
+        "id": "1001",
+        "service": "Individual Therapy",
+        "content": "Discover a path to personal growth, resilience, and well-being with individual therapy at Nurture Mental Health. Our dedicated therapists offer confidential and customized sessions to address a range of mental,emotional, and behavioral challenges. Some psychological challenges we can help to deal with are:",
+        "serviceList": [
+            "xyz",
+            "abc",
+            "pqr",
+            "lmn",
+            "opq",
+            "dfr",
+            "gfregregre"
+        ],
+        "serviceImage": "https://res.cloudinary.com/dttau3ddh/image/upload/v1708184699/WhatsApp_Image_2024-02-17_at_19.41.42_qaesue.jpg"
+    },
+    {
+        "id": "1002",
+        "service": "Addiction and Substance Abuse Counseling",
+        "content": "Our services provide compassionate and evidence-based support forindividuals facing challenges related to substance use. We understand the complexities of addiction and are dedicated to helping you on your journey to recovery, providing guidance,   understanding, and tailored interventions..Key services include: ",
+        "serviceList": [
+            "xyz",
+            "abc",
+            "pqr",
+            "lmn",
+            "opq",
+            "dfr",
+            "gfregregre"
+        ],
+        "serviceImage": "https://res.cloudinary.com/dttau3ddh/image/upload/v1708184697/WhatsApp_Image_2024-02-17_at_19.41.42_1_c1gklt.jpg"
+    },
+    {
+        "id": "1003",
+        "service": "Family Therapy",
+        "content": "We understand the importance of family dynamics in shaping individual well-being. We provide a supportive and collaborative environment to address a variety of relational challenges and foster positive connections. Some psychological challenges we can help to deal with are:",
+        "serviceList": [
+            "xyz",
+            "abc",
+            "pqr",
+            "lmn",
+            "opq",
+            "dfr",
+            "gfregregre"
+        ],
+        "serviceImage": "https://res.cloudinary.com/dttau3ddh/image/upload/v1708184697/WhatsApp_Image_2024-02-17_at_19.41.42_1_c1gklt.jpg"
+    },
+    {
+        "id": "1004",
+        "service": "Couple Therapy",
+        "content": "At Nurture Mental Health, we recognize the importance of healthy and thriving relationships. Our couple therapy services provide a supportive and confidential space for couples to enhance communication, strengthen connections, and navigate challenges together. Key services include :",
+        "serviceList": [
+            "xyz",
+            "abc",
+            "pqr",
+            "lmn",
+            "opq",
+            "dfr",
+            "gfregregre"
+        ],
+        "serviceImage": "https://res.cloudinary.com/dttau3ddh/image/upload/v1708184696/WhatsApp_Image_2024-02-17_at_19.41.41_prbshn.jpg"
+    },
+    {
+        "id": "1005",
+        "service": "Kids & Adolescent Therapy",
+        "content": "At Nurture mental Health we understand the unique challenges that children and adolescents face in today's world. Our dedicated team of therapists specializes in providing compassionate and effective therapy to support the emotional and mental well-being of young minds.Key services include :",
+        "serviceList": [
+            "xyz",
+            "abc",
+            "pqr",
+            "lmn",
+            "opq",
+            "dfr",
+            "gfregregre"
+        ],
+        "serviceImage": "https://res.cloudinary.com/dttau3ddh/image/upload/v1708184696/WhatsApp_Image_2024-02-17_at_19.41.41_prbshn.jpg"
+    },
+    {
+        "id": "1006",
+        "service": "Volunteer at Our Awareness & Sensitization Programs",
+        "content": "We are committed to fostering awareness and promoting sensitization on important issues. Our programs aim to educate, empower, and inspire individuals and communities to create positive change..Key services include :",
+        "serviceList": [
+            "xyz",
+            "abc",
+            "pqr",
+            "lmn",
+            "opq",
+            "dfr",
+            "gfregregre"
+        ],
+        "serviceImage": "https://res.cloudinary.com/dttau3ddh/image/upload/v1708184295/imagine-a-3d-cartoon-lively-community-gatherin-upscaled_q23q7j.jpg"
+    },
+    {
+        "id": "1007",
+        "service": "Admission to Rehabilitation Center Services",
+        "content": "Our services provide a safe, inclusive, and affirming space for individuals within the LGBTQ+ community. We understand the unique challenges and experiences faced by this diverse community and are committed to offering support, understanding, and empowerment. Whether you're navigating issues related to identity, relationships, or mental health, our counselors are here to assist you on your journey.Key services include :",
+        "serviceList": [
+            "xyz",
+            "abc",
+            "pqr",
+            "lmn",
+            "opq",
+            "dfr",
+            "gfregregre"
+        ],
+        "serviceImage": "https://res.cloudinary.com/dttau3ddh/image/upload/v1708184299/one-adult-women-taking-therapy-from-a-female-thera-upscaled_1_j8jyst.jpg"
+    },
+
+    {
+        "id": "1008",
+        "service": "Carrier Counselling",
+        "content": "We are dedicated to helping individuals discover, plan, and achieve fulfilling careers. Our career counseling services provide personalized guidance to empower you on your professional journey.Our Career Exploration Services include:",
+        "serviceList": [
+            "xyz",
+            "abc",
+            "pqr",
+            "lmn",
+            "opq",
+            "dfr",
+            "gfregregre"
+        ],
+        "serviceImage": "https://res.cloudinary.com/dttau3ddh/image/upload/v1708184698/WhatsApp_Image_2024-02-17_at_19.41.43_qkk9sq.jpg"
+    },
+
+    {
+        "id": "1009",
+        "service": "LGBTQ+ Affirmative Counseling",
+        "content": "Our services provide a safe, inclusive, and affirming space for individuals within the LGBTQ+ community. We understand the unique challenges and experiences faced by this diverse community and are committed to offering support, understanding, and empowerment. Whether you're navigating issues related to identity, relationships, or mental health, our counselors are here to assist you on your journey.Key services include :",
+        "serviceList": [
+            "xyz",
+            "abc",
+            "pqr",
+            "lmn",
+            "opq",
+            "dfr",
+            "gfregregre"
+        ],
+        "serviceImage": "https://res.cloudinary.com/dttau3ddh/image/upload/v1708184299/one-adult-women-taking-therapy-from-a-female-thera-upscaled_1_j8jyst.jpg"
+    }
+
+
+]
