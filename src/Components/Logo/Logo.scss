@@ -1,34 +1,19 @@
-.logo{
+.logo-navbar{
    user-select: none; 
    box-sizing: border-box;
    padding: auto;
    display: flex;
    height: 70px;
    width: 200px;
-   
-p{
-   margin: 0;
-}
+   // background-color: rgb(255, 207, 207);
+
 
    .logo-image{
       img{
-      height: 57px;
-      width: 57px;
-      }
-   }
-   .site-heading{
-      padding-top: 5px;
-
-      .logo-title{
-         font-weight: bolder;
-         letter-spacing: 1px;
-         margin-top: -5px;
-         font-size: 31px;
-      }
-      .logo-desc{
-         margin-top: -5px;
-         font-size: 13px;
-         
+         height: 65px;
+         width: 180px;
+         padding-top: 5px;
+        
       }
    }
 }

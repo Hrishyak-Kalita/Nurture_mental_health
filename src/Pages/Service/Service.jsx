@@ -5,7 +5,7 @@ import "./Service.scss";
 const Service = () => {
   return (
     <>
-      <TileDesc name="OUR SERVICES" />
+      <TileDesc name="OUR SERVICES" description="SERVICES"/>
 
       <div className="ServiceContainer">
         <div className="ServiceBox">
