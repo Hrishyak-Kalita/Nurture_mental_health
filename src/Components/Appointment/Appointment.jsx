@@ -4,11 +4,9 @@ import './Appointment.scss'
 const Appointment = ({ title }) => {
     return (
         <div className="Appointment" >
-            <h4>Book an appointment</h4>
+            <h4>How to Reach us</h4>
              <div className='inputss'>
-            {/* <input type="name" placeholder="Name" className="input" id="name" /> */}
-            {/* <input type="number" placeholder="Phone" className="input" id="no" /> */}
-            {/* <input type="email" placeholder="Email" className="input" id="mail" /> */}
+            <p>Dunlop, Saket Nagar, Bonhooghly Government Colony, Dakshineswar, Kolkata, Baranagar, West Bengal 700035</p>
             </div>
         </div>
     )

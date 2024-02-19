@@ -3,7 +3,7 @@
 .ServiceContainer {
     padding: 5rem;
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: repeat( auto-fit, minmax(450px, 1fr) );
 
     .ServiceBox {
         height: fit-content;
@@ -22,10 +22,13 @@
         
         .service-key-box {
             display: grid;
-            grid-template-columns: 50% 50%;
+            grid-template-columns: 1fr 1fr;
+
+            width: fit-content;
             padding: 1.5rem 0 1rem 1rem;
             .service-key {
                 list-style: inherit;
+                text-overflow: ellipsis;
                 color: rgb(46, 46, 62);
                 padding: 0 0.5rem 0 0.2rem;
                 span {
@@ -46,16 +49,13 @@
             padding: 0.5rem 0;
         }
 
-        .readMorebtn {
-            color: white;
-            padding: 0.3rem 0.4rem;
+        .service_btn{
+            display: flex;
+            justify-content: space-evenly;
             cursor: pointer;
-            background-color: rgb(16, 194, 243);
-            border: 1px solid rgba(128, 128, 128, 0.5);
-            border-radius: 2px;
-            &:hover{
-                border: 1px solid rgba(128, 128, 128);
-    
+
+            .s_btn{
+                cursor: pointer;
             }
         }
     }
