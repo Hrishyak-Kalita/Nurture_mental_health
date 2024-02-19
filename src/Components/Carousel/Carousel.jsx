@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from 'react'
 import './Carousel.scss'
-import Img1 from './Images/carousel-doctor.jpg'
 
 
 const Carousel = () => {
    const data = [
-      { id: 1, src: Img1, },
-      { id: 2, src: "https://imgs.search.brave.com/4HStLvark6VBeYRheD5JH7RJfhvBr-6yso7VRFVFs_c/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNTE5/OTIwMjAyL3Bob3Rv/L2RvY3Rvci1pbi1h/LWhvc3BpdGFsLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz1s/QzNucVQ3VWRFdGY3/Ym03ejc1eGdWaU5z/QjctN01MUzQxLWll/cWJEZEVZPQ", },
-      { id: 3, src: "https://imgs.search.brave.com/ERv628Lao6F0-ecwDvrH5plSlz1jX0PS7hvqyz4x8Qo/rs:fit:500:0:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9kb2N0/b3ItbWVkaWNhbC1i/bHVlLWJhY2tncm91/bmQtMjE1Nzg2MjYu/anBn", },
-      { id: 4, src: Img1, }
+      { id: 1, src: "https://res.cloudinary.com/dttau3ddh/image/upload/v1708332818/a-female-therapist-sitting-in-her-chamber-alone-in-upscaled_1_v9pffu.jpg", },
+      { id: 2, src: "https://res.cloudinary.com/dttau3ddh/image/upload/v1708184699/WhatsApp_Image_2024-02-17_at_19.41.42_qaesue.jpg", },
+      { id: 3, src: "https://res.cloudinary.com/dttau3ddh/image/upload/v1708184696/WhatsApp_Image_2024-02-17_at_19.41.41_prbshn.jpg", },
+      { id: 4, src: "https://res.cloudinary.com/dttau3ddh/image/upload/v1708184303/A_3D_animate_11cd1d7e-a4af-4c8a-a635-fae01f6dee2a_gly0tq.png" },
+      {id:5, src:"https://res.cloudinary.com/dttau3ddh/image/upload/v1708184299/one-adult-women-taking-therapy-from-a-female-thera-upscaled_1_j8jyst.jpg"}
    ]
 
    const [currIdx, setCurrIdx] = useState(0)
@@ -30,17 +30,15 @@ const Carousel = () => {
             {data.map((item, index) => {
                return (
                   <>
-
                      <div className='button-div'>
                         <div className="description">
-                           <p className='heading-name'>We Provide top<br /> Medical Services </p>
-                           <p className='Heading-Description'>More than 30 professionals</p>
+                           <p className='heading-name'>Nurture Mental Health </p>
+                           <p className='Heading-Description'><span className='midStyle'>with</span> Limpee Kalita </p>
                         </div>
-                        <div className="all-button">
+                        {/* <div className="all-button">
                            <button className='appointment'>Make an Appointment</button>
                            <button className='read-more'>Read More</button>
-                        </div>
-
+                        </div> */}
                      </div>
 
                      <div className='carousel-item'

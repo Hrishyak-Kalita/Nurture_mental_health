@@ -4,9 +4,9 @@ const Docs = ({ title }) => {
     return (
 
         <div className="Doct">
-            <h4>New Heading</h4>
+            <h4>Our Mision</h4>
             <p className="DocPara">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quod alias inventore quidem nulla cumque esse eum maiores accusamus ut quo cupiditate aliquam, laudantium unde, exercitationem sed provident voluptatem odit!
+            Our mission is to provide accessible mental health support, reduce stigma, etc. We believe that everyone deserves to lead a fulfilling and mentally healthy life, and we are committed to raising awareness, providing resources, etc. to achieve this vision.
             </p>
             {/* <button className='readMorebtn' id="ReadDoc">Read More</button> */}
         </div>

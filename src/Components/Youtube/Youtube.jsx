@@ -1,5 +1,4 @@
 import React from 'react';
-import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/css';
 import './Youtube.scss'
 import { ElfsightWidget } from 'react-elfsight-widget';
