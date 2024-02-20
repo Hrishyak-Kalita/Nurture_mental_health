@@ -2,8 +2,22 @@
     height: 10rem;
     width: 100%;
     text-align: center;
+    justify-content: center;
     position: relative;
     top: 2rem;
     z-index: -1;
-    background-color: rgba(218, 216, 216, 0.918);
+    background-color: rgba(200, 246, 217, 0.918);
+    padding: 2rem 0 0 0 ;
+
+    .JoinBtn {
+        background-color: rgb(40, 239, 99);
+        color: aliceblue;
+        height: fit-content;
+        border-radius: 15px;
+        border: 2px solid whitesmoke;
+        padding: 1rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+        cursor: pointer;
+    }
 }
