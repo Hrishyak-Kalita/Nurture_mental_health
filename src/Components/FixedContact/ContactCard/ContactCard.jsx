@@ -15,7 +15,7 @@ const ContactCard = () => {
         <p className='designation'>Psychologist</p>
         <div className="callConnect">
          <ConnectWhatsapp phoneNumber="918638583313" size="20" message="Hi, I am seeking assistance from Nurture Mental Health Center"/> 
-         <ConnectPhone phoneNumber="918638583313"/>
+         <ConnectPhone phoneNumber="8638583313"/>
         </div>
       </div>
     </div>

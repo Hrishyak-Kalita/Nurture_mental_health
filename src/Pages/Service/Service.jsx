@@ -38,8 +38,8 @@ const Service = () => {
               </ul>
             </p>
             <div className="service_btn">
-              <ConnectWhatsapp className="s_btn"/>
-              <ConnectPhone className="s_btn"/>
+              <ConnectWhatsapp phoneNumber="918638583313" message="Hi, I am seeking assistance from Nurture Mental Health Center" className="s_btn"/>
+              <ConnectPhone phoneNumber="8638583313" className="s_btn"/>
               </div>
           </div>
         )}
