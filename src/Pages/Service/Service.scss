@@ -1,26 +1,4 @@
-.HeadingImage {
-    height: 30rem;
-    width: 100%;
-    overflow: hidden;
-    background-image: url(https://cdn.pixabay.com/photo/2017/09/03/09/48/head-2709732_1280.jpg);
-    background-size: cover;
-    background-position: center;
-    text-align: center;
 
-
-    .virtualbox {
-        background-color: rgba(10, 93, 165, 0.5);
-
-        height: 100%;
-        width: 100%;
-        display: grid;
-        align-items: center;
-        font-size: 5rem;
-        color: rgb(243, 239, 245);
-
-
-    }
-}
 
 .ServiceContainer {
     padding: 5rem;
@@ -52,7 +30,7 @@
                 list-style: inherit;
                 text-overflow: ellipsis;
                 color: rgb(46, 46, 62);
-                padding: 0 0.5rem 0 0.2rem;
+                padding: 0 5rem 0 0.2rem;
                 span {
                     font-size: 14px;
                     padding:0  0.8rem 0 0;
@@ -90,6 +68,17 @@
         grid-template-columns: 50% 50%;
         padding: 2rem;
         justify-content: center;
+        .ServiceBox {
+            
+            .service-key-box {
+                display: grid;
+                grid-template-columns: 100%;
+                .service-key{
+                    padding: 0 0.5rem 0 0.2rem;
+                }
+                
+            }
+        }
     }
 
 
@@ -105,19 +94,22 @@
             .service-key-box {
                 display: grid;
                 grid-template-columns: 100%;
+                .service-key{
+                    padding: 0 0.5rem 0 0.2rem;
+                }
                 
             }
         }
 
     }
 
-    .HeadingImage {
-        height: 20rem;
+    // .HeadingImage {
+    //     height: 20rem;
 
-        .virtualbox {
-            font-size: 3.5rem;
-        }
-    }
+    //     .virtualbox {
+    //         font-size: 3.5rem;
+    //     }
+    // }
 
 
 }
