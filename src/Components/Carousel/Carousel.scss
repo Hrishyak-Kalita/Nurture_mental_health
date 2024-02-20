@@ -1,7 +1,4 @@
-// *{
-//    margin: 0;
-//    box-sizing: border-box;
-// }
+
 .cover{
    background-color: #4d4dff;
 }
@@ -44,16 +41,16 @@
             letter-spacing: 4px;
             overflow:inherit;
             color: white;
-            text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.31);
+            text-shadow: 3px 3px 2px rgba(128, 128, 128, 0.31);
       
          }
          .Heading-Description{
             font-size: 1.2rem;
             color: rgb(240, 129, 129);
-            text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.31);
+            text-shadow: 3px 3px 2px rgba(128, 128, 128, 0.31);
             .midStyle{
                color: white;
-               text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.31);
+               text-shadow: 3px 3px 2px rgba(128, 128, 128, 0.31);
             }
          }
       }
