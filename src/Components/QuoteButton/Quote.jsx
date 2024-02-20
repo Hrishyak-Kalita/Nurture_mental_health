@@ -6,7 +6,7 @@ const Quote = ({ heading, subHeading, bgImage, buttonTitle }) => {
         BGSetter();
     })
 
-    const [bg_Image, setBg] = useState("https://res.cloudinary.com/dttau3ddh/image/upload/v1708332818/a-female-therapist-sitting-in-her-chamber-alone-in-upscaled_1_v9pffu.jpg")
+    const [bg_Image, setBg] = useState("https://res.cloudinary.com/dttau3ddh/image/upload/v1708417639/a-female-therapist-sitting-in-her-chamber-alone-in-upscaled_1_1_dbml6d.jpg")
 
     const BGSetter = () => {
         if (bgImage != null) {
