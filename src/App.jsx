@@ -8,7 +8,10 @@ function App() {
 
   return (
     <>
-      <Navbar />
+    <div className='navbar_box'>
+
+      <Navbar  />
+    </div>
       <Routes>
 
         <Route exact path='/' element={<Home />} />
