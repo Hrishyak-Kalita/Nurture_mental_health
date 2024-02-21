@@ -4,7 +4,7 @@ import { Icon } from "@iconify/react";
 const ConnectPhone = () => {
 
    const handleButtonClick = ({phoneNumber,size}) => {
-        window.location.href = "tel:9706245997" // Replace '1234567890' with the desired phone number
+        window.location.href = "tel:8638583313";
     };
         return (
             <button className='connectBtn' onClick={handleButtonClick}>
