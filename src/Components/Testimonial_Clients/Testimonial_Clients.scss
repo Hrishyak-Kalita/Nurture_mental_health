@@ -1,5 +1,6 @@
 .main_container {
 //   background-color: rgb(14, 235, 29);
+height: fit-content;
   .clients {
     background-color: rgb(144, 200, 250);
     margin: 3rem;
@@ -14,6 +15,12 @@
         border-radius: 50%;
         aspect-ratio: 1/1;
       }
+    }
+    @media only screen and (max-width: 1092) {
+        .clients{
+            margin: 0rem;
+            padding: 0rem;
+        }
     }
     .name { 
       .client_name {
