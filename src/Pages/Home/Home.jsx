@@ -27,7 +27,8 @@ const Home = () => {
       <div className='home'>
 
         <Carousel />
-        <IntroToAdd />
+        <IntroToAdd phoneNumber="918638583313" size="20" message="Hi, I am seeking assistance from Nurture Mental Health Center"/>
+
         <MedicaIntro />
 
         <Contentinfo />
