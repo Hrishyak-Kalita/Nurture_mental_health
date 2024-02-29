@@ -8,7 +8,7 @@ const Emergency = ({ title }) => {
       <div className="EmerPara">
         <Avatar
           size={150}
-          src="https://res.cloudinary.com/dttau3ddh/image/upload/v1709041556/IMG_20240226_140813_scggzm.jpg"
+          src="https://res.cloudinary.com/dttau3ddh/image/upload/v1709216204/IMG_20240226_140810_1_itzgvl.jpg"
         />
       </div>
       <h4 className="emHead">Limpee Kalita</h4>
