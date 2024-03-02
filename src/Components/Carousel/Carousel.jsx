@@ -5,10 +5,10 @@ import './Carousel.scss'
 const Carousel = () => {
    const data = [
       { id: 1, src: "https://res.cloudinary.com/dttau3ddh/image/upload/v1708417639/a-female-therapist-sitting-in-her-chamber-alone-in-upscaled_1_1_dbml6d.jpg", },
-      { id: 2, src: "https://res.cloudinary.com/dttau3ddh/image/upload/v1708184699/WhatsApp_Image_2024-02-17_at_19.41.42_qaesue.jpg", },
-      { id: 3, src: "https://res.cloudinary.com/dttau3ddh/image/upload/v1708184696/WhatsApp_Image_2024-02-17_at_19.41.41_prbshn.jpg", },
-      { id: 4, src: "https://res.cloudinary.com/dttau3ddh/image/upload/v1708184303/A_3D_animate_11cd1d7e-a4af-4c8a-a635-fae01f6dee2a_gly0tq.png" },
-      { id: 5, src: "https://res.cloudinary.com/dttau3ddh/image/upload/v1708184299/one-adult-women-taking-therapy-from-a-female-thera-upscaled_1_j8jyst.jpg" }
+      { id: 2, src: "https://res.cloudinary.com/dttau3ddh/image/upload/v1709365848/IMG_20230720_135323_zoxbff.jpg", },
+      { id: 3, src: "https://res.cloudinary.com/dttau3ddh/image/upload/v1709367387/IMG_20240220_120138_r8ifiw.jpg", },
+      { id: 4, src: "https://res.cloudinary.com/dttau3ddh/image/upload/v1709369587/IMG_20240111_141922_zds8hq.jpg" },
+      { id: 5, src: "https://res.cloudinary.com/dttau3ddh/image/upload/v1708184303/A_3D_animate_11cd1d7e-a4af-4c8a-a635-fae01f6dee2a_gly0tq.png" }
    ]
 
    const [currIdx, setCurrIdx] = useState(0)
