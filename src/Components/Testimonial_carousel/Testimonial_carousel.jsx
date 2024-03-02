@@ -1,16 +1,20 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
-
+import 'swiper/css'
+import 'swiper/css/navigation'
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import styles from "./Testimonial_carousel.module.scss";
 
 import  Testimonial_Clients  from "../Testimonial_Clients/Testimonial_Clients";
 import Data from '../../assets/Clients.json'
-const Testimonial_carousel = () => {
-    
+
+ 
+
+function Testimonial_carousel() {
+  
   return (
     <div className={styles.Container}>
-    
+
       <div className={styles.hrline}>x </div>
       <h1 className={styles.title}>Clients Testimonials</h1>
       <Swiper
@@ -20,7 +24,9 @@ const Testimonial_carousel = () => {
         grabCursor={1}
         centeredSlides={1}
         autoplay={{
+          disableOnInteraction: false,
           delay: 3000,
+          pauseOnMouseEnter: true,
         }}
         loop={1}
         modules={[Navigation, Autoplay]}
@@ -43,14 +49,13 @@ const Testimonial_carousel = () => {
           740: {
             slidesPerView: 1.5,
           },
-          1092:{
-            slidesPerView:3,
+          1092: {
+            slidesPerView: 3,
           }
         }}
 
-        // swiper end
       >
-        
+
         <div className={styles.sliderControler}>
           <div className={styles.swiperButtonPrev} id="swiper-button-prev">
             <IoIosArrowBack className={styles.bckarrow} />
@@ -60,19 +65,19 @@ const Testimonial_carousel = () => {
           </div>
         </div>
 
-        
+
 
         {Data.map((item) => (
           <SwiperSlide /*key={item.id}*/ className={styles.slide}>
             <div className={styles.Box}>
 
-              <Testimonial_Clients item={item}/>
+              <Testimonial_Clients item={item} />
             </div>
           </SwiperSlide>
-         ))} 
+        ))}
       </Swiper>
     </div>
   );
-};
+}
 
 export default Testimonial_carousel;

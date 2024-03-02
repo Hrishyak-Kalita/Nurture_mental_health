@@ -1,45 +1,45 @@
- [
-      {
-        "id": 1,
-        "image": "https://cdn.pixabay.com/photo/2016/11/14/04/45/elephant-1822636_1280.jpg",
-        "name":  "Sandeep Kherkatary",
-        "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam velitdelectus amet non nam rem nemo aut exercitationem nostrum aliquid.",
-        "star_rated": "5"
-      },
-      {
-        "id": 2,
-        "image": "https://cdn.pixabay.com/photo/2016/11/14/04/45/elephant-1822636_1280.jpg",
-        "name":  "Indrajit Ray",
-        "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam velitdelectus amet non nam rem nemo aut exercitationem nostrum aliquid.",
-        "star_rated": "4"
-      },
-      {
-        "id": 3,
-        "image": "https://cdn.pixabay.com/photo/2016/11/14/04/45/elephant-1822636_1280.jpg",
-        "name":  "Hrishyak Kalita",
-        "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam velitdelectus amet non nam rem nemo aut exercitationem nostrum aliquid.",
-        "star_rated": "3"
-      },
-      {
-        "id": 4,
-        "image": "https://cdn.pixabay.com/photo/2016/11/14/04/45/elephant-1822636_1280.jpg",
-        "name":  "Sumit Kumar Sah",
-        "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam velitdelectus amet non nam rem nemo aut exercitationem nostrum aliquid.",
-        "star_rated": "2"
-      },
-      {
-        "id": 5,
-        "image": "https://cdn.pixabay.com/photo/2016/11/14/04/45/elephant-1822636_1280.jpg",
-        "name":  "Bishal Kashyap",
-        "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam velitdelectus amet non nam rem nemo aut exercitationem nostrum aliquid.",
-        "star_rated": "1"
-      },
-      {
-        "id": 6,
-        "image": "https://cdn.pixabay.com/photo/2016/11/14/04/45/elephant-1822636_1280.jpg",
-        "name":  "Nayan Jyoti Baishya",
-        "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam velitdelectus amet non nam rem nemo aut exercitationem nostrum aliquid.",
-        "star_rated": "0"
-      }
-    ]
-  
+[
+  {
+    "id": 1,
+    
+    "name": "Dinesh Kumar Panda",
+    "content": "The Doc (Ms Kalita) is a deligient psychologist with the right techniques for all mental illness. Today I'm a mentally healthy person and the Doc's contribution in healing my mental disorders (anxiety, stress and self doubts) is beyond explanation. I felt positive changes from our first session itself. Ms Kalita is also LGBTQ+ friendly and understands the severe homophobia induced issues faced by the queer community. We all deserve to be mentally healthy, so that we can better focus on our real goals. Thus, let's not hesitate to consult with the Doc(s) whenever necessary at the earliest for ourselves and our loved ones. Doc Ms. Kalita is one of best persons when it comes to mental health treatment and counseling.",
+    "star_rated": "5"
+  },
+  {
+    "id": 2,
+    "name": "Suman Chongder",
+    "content": "I have been suffering from mental health issues because of my previous setbacks of my past.I have problems like forget things, emotional, disappointed,low confidence, poor memory etc.But mam sessions help me a lot .Now I am a happy person",
+    "star_rated": "5"
+  },
+  {
+    "id": 3,
+    "name": "Sonalika Mondal",
+    "content": "As a mental health professional she’s really good , well behaved and listens to your problem . She has quite a lot experience i her field to deal with mental health issues ... I wish her all the best for her future endeavours",
+    "star_rated": "5"
+  },
+  {
+    "id": 4,
+    "name": "Nirmalya Chakraborty",
+    "content": "She was very knowledgeable about mental health issues. She was able to explain my condition to me in a way that I could understand.I am grateful for your help mam",
+    "star_rated": "5"
+  },
+  {
+    "id": 5,
+    "name": "Spartan",
+    "content": "limpee ji was exceptional in helping me pass through my depression phase I think she is the only psychologist in the area who actually listens and helps with utmost care.Mental health can be cured and it's high time we stop treating it as taboo I defeated depression and so can you😇 …",
+    "star_rated": "5"
+  },
+  {
+    "id": 6,
+    "name": "Kartick Mondal",
+    "content": "I was suffering from Obsessive compulsive disorder n It comes to an end when I meet her..limpee mam helped me a lot during this tough time of mine . After few visits to her it turns to a normal... I must recommend to all to visit her if he/she is facing any kind of mental illnesses..Thankyou limpee maam for all efforts u hav made.. Keep going on people needs u a lot.... U r doing a great job.",
+    "star_rated": "5"
+  },
+  {
+    "id":7,
+    "name":"Soumya Hearthorb (Ashirbad Foundation)",
+    "content":"Very much satisfied one of my cousin brother came out from his depression level... Specially thanks to Limpee mam",
+    "star_rated":"4"
+  }
+]

@@ -25,6 +25,7 @@
     "react-router-dom": "^6.20.1",
     "react-scripts": "^3.0.1",
     "react-spring": "^9.7.3",
+    "read-more-react": "^1.0.10",
     "sass": "^1.69.5",
     "swiper": "^11.0.5",
     "uninstall": "^0.0.0"
