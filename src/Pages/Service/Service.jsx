@@ -10,8 +10,8 @@ const Service = () => {
 
   return (
     <>
-   
-      <Quote heading="Our Services" subHeading="Get the best Therapy and Counselling"/>
+
+      <Quote heading="Our Services" subHeading="Get the best Psychology Therapy and Counselling "  bgImage="https://res.cloudinary.com/dttau3ddh/image/upload/v1709379567/img-zxHGFI9nYnhAG4Td44jdT_n45d7y.png" />
 
 
       <div className="ServiceContainer">
