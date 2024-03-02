@@ -60,7 +60,7 @@
     position: absolute;
     left: 0;
     width: 15vmin;
-    background-color: var(--gallery-controller);
+    
   }
   
   .swiperButtonNext {
@@ -109,10 +109,10 @@
       padding: 5% 5% 10% 5%;
     }
   
-    .swiperButtonNext {
-      display: none;
-    }
-    .swiperButtonPrev {
-      display: none;
-    }
+    // .swiperButtonNext {
+    //   display: none;
+    // }
+    // .swiperButtonPrev {
+    //   display: none;
+    // }
   }
