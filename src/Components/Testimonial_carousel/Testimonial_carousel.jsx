@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Navigation } from "swiper/modules";
+import { Autoplay, Navigation , Pagination} from "swiper/modules";
 import 'swiper/css'
 import 'swiper/css/navigation'
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
@@ -7,11 +7,16 @@ import styles from "./Testimonial_carousel.module.scss";
 
 import  Testimonial_Clients  from "../Testimonial_Clients/Testimonial_Clients";
 import Data from '../../assets/Clients.json'
+import { useState } from "react";
 
  
 
-function Testimonial_carousel() {
-  
+const Testimonial_carousel=()=> {
+  const [clicked ,setClicked]=useState(false);
+  const isClicked=()=>{
+    if(clicked) setClicked(false);
+    else setClicked(true);
+  }
   return (
     <div className={styles.Container}>
 
@@ -19,17 +24,22 @@ function Testimonial_carousel() {
       <h1 className={styles.title}>Clients Testimonials</h1>
       <Swiper
         className={styles.MySwiper}
-        slidesPerView={2.5}
+        slidesPerView={3}
+        pagination={true}
         effect="coverflow"
         grabCursor={1}
         centeredSlides={1}
-        autoplay={{
-          disableOnInteraction: false,
-          delay: 3000,
-          pauseOnMouseEnter: true,
-        }}
+        // autoplay={
+        //   clicked?
+        //     false:
+        //   {
+        //     disableOnInteraction: false,
+        //     delay:3000,
+        //     pauseOnMouseEnter: true,
+        //   }
+        // }
         loop={1}
-        modules={[Navigation, Autoplay]}
+        modules={[Navigation, Autoplay, Pagination]}
         coverflowEffect={{
           rotate: 0,
           stretch: 10,
@@ -58,10 +68,10 @@ function Testimonial_carousel() {
 
         <div className={styles.sliderControler}>
           <div className={styles.swiperButtonPrev} id="swiper-button-prev">
-            <IoIosArrowBack className={styles.bckarrow} />
+            <IoIosArrowBack size={80} color="#dbdbdb" className={styles.bckarrow} />
           </div>
           <div className={styles.swiperButtonNext} id="swiper-button-next">
-            <IoIosArrowForward className={styles.nxtarrow} />
+            <IoIosArrowForward size={80} color="#dbdbdb" className={styles.nxtarrow} />
           </div>
         </div>
 
@@ -69,7 +79,7 @@ function Testimonial_carousel() {
 
         {Data.map((item) => (
           <SwiperSlide /*key={item.id}*/ className={styles.slide}>
-            <div className={styles.Box}>
+            <div className={styles.Box} onClick={isClicked}>
 
               <Testimonial_Clients item={item} />
             </div>
