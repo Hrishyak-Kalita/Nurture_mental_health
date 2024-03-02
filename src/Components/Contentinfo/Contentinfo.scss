@@ -43,7 +43,7 @@
         }
 
         .Readbtn {
-            background-color: rgb(18, 76, 237);
+            background-color: rgb(35, 111, 232);
             color: aliceblue;
             height: fit-content;
             border-radius: 8px;
@@ -57,19 +57,18 @@
 
     .DocImg {
         // background-image: url("https://res.cloudinary.com/dttau3ddh/image/upload/v1708184699/WhatsApp_Image_2024-02-17_at_19.41.42_qaesue.jpg");
-        background-size: contain;
         display: flex;
-        height: 100%;
+        height: fit-content;
         width: 100%;
         
     
-        justify-content: center;
-        align-items: center;
+        
         img{
             width: 100%;
             height: fit-content;
-            aspect-ratio: 4/3;
-        object-fit:cover;
+            aspect-ratio: 4/3.5;
+            object-fit:cover;
+            border-radius: 5px;
         }
 
     }

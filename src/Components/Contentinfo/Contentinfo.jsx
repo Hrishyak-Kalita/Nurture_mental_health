@@ -61,13 +61,13 @@ export default function Contentinfo() {
         </ul>
         <Link to="/services">
         <button className="Readbtn" >
-           Explore Services
+          Explore Services
         </button>
         </Link>
       </div>
       <div className="DocImg">
         <img
-          src="https://res.cloudinary.com/dttau3ddh/image/upload/v1708184699/WhatsApp_Image_2024-02-17_at_19.41.42_qaesue.jpg"
+          src="https://res.cloudinary.com/dttau3ddh/image/upload/v1709041556/IMG_20240226_140813_scggzm.jpg"
           alt=""
         />
       </div>

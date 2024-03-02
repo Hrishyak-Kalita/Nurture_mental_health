@@ -15,8 +15,8 @@ const Quote = ({ heading, subHeading, bgImage, buttonTitle }) => {
     }
 
     return (
-        <div style={{ backgroundImage: `url("${bg_Image}")` }} className="quoteContainer">
-            <div 
+        <div style={{ backgroundImage: `url("${bg_Image}")`}} className="quoteContainer">
+            <div
                 className="quote_div centerUsingFlex">
                 <div className="quote">
                     <h1>{heading}</h1>
