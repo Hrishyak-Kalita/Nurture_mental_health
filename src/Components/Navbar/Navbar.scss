@@ -9,17 +9,22 @@
   
 
   a{
+    
     user-select: none; 
     text-decoration: none;
     margin: 0 2rem 0 0;
-    color: black;
   }
-
-   a:hover{
-     color: rgb(1, 149, 255);
+  a:link {
+    text-decoration: none;
   }
-  li{
-    list-style: none;
+  a:hover{
+    color: rgb(0, 27, 47);
+  }
+  ul{
+    padding-top: 20px;
+    li{
+      list-style: none;
+    }
   }
 }
 

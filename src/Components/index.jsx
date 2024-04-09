@@ -19,7 +19,10 @@ import Testimonial from "./Testimonial/Testimonial"
 // import BookAppointment from "./BookAppointment/BookAppointment";
 import Appointment_img_icon from "./Appointment_img-icon/Appointment_img_icon";
 
+import Collaboration from "./Collaborate/Collaborate";
+import JoinUs from "./JoinUs/JoinUs";
+
 import FixedContact from "./FixedContact/FixedContact";
 import Youtube from "./Youtube/Youtube";
 
-export { Navbar, Footer, Button,Testimonial, NewsPreview, ContactUsFooter,Appointment_img_icon, TileDesc, Quote, AboutInfo, Cards, TeamCardHolder, ScrollToTop, LoginForm,IntroToAdd,MedicaIntro,Contentinfo,FixedContact,Youtube}
+export { Navbar, Footer, Button,Testimonial,Collaboration, JoinUs, NewsPreview, ContactUsFooter,Appointment_img_icon, TileDesc, Quote, AboutInfo, Cards, TeamCardHolder, ScrollToTop, LoginForm,IntroToAdd,MedicaIntro,Contentinfo,FixedContact,Youtube}

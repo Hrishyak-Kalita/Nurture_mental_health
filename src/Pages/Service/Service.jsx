@@ -2,6 +2,7 @@ import React from "react";
 import { TileDesc, Quote } from "../../Components";
 import "./Service.scss";
 import serviceData from "../../assets/services.json"
+import JoinAndCollaborate from "../JoinAndCollaborate/JoinAndCollaborate";
 
 
 const Service = () => {
@@ -38,7 +39,6 @@ const Service = () => {
             <button className="readMorebtn">Read More</button>
           </div>
         )}
-
       </div>
     </>
   );

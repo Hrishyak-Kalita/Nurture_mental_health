@@ -21,7 +21,7 @@ const About = () => {
         icon_name={data?.aboutInfo?.iconName}
       />
 
-
+      
       {/* <AboutInfo
         heading={data?.aboutInfo2?.heading}
         content={data?.aboutInfo2?.content}
