@@ -93,6 +93,7 @@
     "service": "Admission to Rehabilitation Center Services",
     "content": "Our services provide a safe, inclusive, and affirming space for individuals within the LGBTQ+ community. We understand the unique challenges and experiences faced by this diverse community and are committed to offering support, understanding, and empowerment. Whether you're navigating issues related to identity, relationships, or mental health, our counselors are here to assist you on your journey.Key services include :",
     "serviceList": [
+      "IPD services for all kind of chronic psychological disorder in various location of West Bengal.",
       "Pre-Admission Assessment",
       "Admission Guidance and Support",
       "Personalized Treatment Planning",
@@ -106,7 +107,7 @@
   {
     "id": "1008",
     "service": "Carrier Counselling",
-    "content": "We are dedicated to helping individuals discover, plan, and achieve fulfilling careers. Our career counseling services provide personalized guidance to empower you on your professional journey.Our Career Exploration Services include:",
+    "content": "We specialize in conducting psychometric assessments to thoroughly analyze individual's skills, interests, personality traits, and recommend career paths accordingly. Our assessments focus particularly on intelligence, social aptitude, and physical capabilities, enabling us to provide tailored recommendations for career choices, learning opportunities, as well as suitable universities and colleges.Our Career Exploration Services include:",
     "serviceList": [
       "Industry Insights & Trends",
       "Identify Skills & Values",

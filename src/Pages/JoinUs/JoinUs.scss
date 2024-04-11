@@ -1,0 +1,42 @@
+
+.joinBox{
+    width: 100%;
+    display: grid;
+   grid-template-columns: 1fr 1fr;
+    padding:2rem;
+
+    .leftjoinbox{
+        padding: 1rem;
+    
+        .applybox{
+            background-color: rgb(230, 238, 218);
+            padding: 2rem;
+        
+            .joinpara{
+                font-weight: 600;
+            padding: 1rem 2rem;
+            .joinas{
+                font-weight: bolder;
+            }
+            }
+            .Applybtn {
+            background-color: rgb(67, 234, 131);
+            color: aliceblue;
+            height: fit-content;
+            width: 9rem;
+            border-radius: 4px;
+            border: 1px solid whitesmoke;
+            padding: 0.7rem 0rem 0.7rem 01rem;
+            font-size: 1.1rem;
+            font-weight: 900;
+        color: white;
+            cursor: pointer;
+            }
+        }
+    }
+
+    .rightjoinbox{
+        background-color: rgb(180, 180, 224);
+    }
+}
+

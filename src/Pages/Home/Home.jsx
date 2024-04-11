@@ -2,6 +2,7 @@ import React from 'react'
 import "./Home.scss"
 import { Link } from 'react-router-dom'
 import { Button, Navbar, Testimonial, Appointment_img_icon, FixedContact, Youtube } from '../../Components'
+
 import Carousel from '../../Components/Carousel/Carousel'
 import IntroToAdd from '../../Components/IntroToAdd/IntroToAdd'
 import MedicaIntro from '../../Components/MedicaIntro/MedicaIntro'
@@ -25,7 +26,7 @@ const Home = () => {
 
 
       <div className='home'>
-
+        
         <Carousel />
         <IntroToAdd phoneNumber="918638583313" size="20" message="Hi, I am seeking assistance from Nurture Mental Health Center"/>
 

@@ -7,7 +7,7 @@ import Service from "./Service/Service"
 import ErrorPage from "./404/ErrorPage";
 import Teams from "./Teams/Teams";
 import Register from "./LoginAndRegister/Register";
+import JoinUs from "./JoinUs/JoinUs"
 
 
-
-export {Home, Login, News, Contact, About, ErrorPage, Teams, Register ,Service}
+export {Home, Login, News, Contact, About, ErrorPage, Teams, Register ,Service,JoinUs }

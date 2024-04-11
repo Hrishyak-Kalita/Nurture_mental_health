@@ -22,6 +22,10 @@ const AboutInfo = ({ heading, content, imageLink1,imageLink2, icon_name }) => {
             </p>
           </div>
           <div className="about1">
+            <h2>our Vision</h2>
+            <p>To cultivate a society where mental health is prioritized, understood and nurtured, enabling individuals to thrive in their personal and communal pursuits.</p>
+          </div>
+          <div className="about1">
             <h2>Our Mission</h2>
             <p>
               Our mission is to provide accessible mental health support, reduce

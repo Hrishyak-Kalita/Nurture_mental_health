@@ -6,11 +6,11 @@ import Logo from '../Logo/Logo'
 
 
 const Navbar = () => {
-    const [visible, setVisible] = useState(false);
+   const [visible, setVisible] = useState(false);
    
    return (
       <>
-      <header>   
+      <header>
          <Link to="/"><Logo /></Link>
 
          <nav className="nav-links">
@@ -18,6 +18,8 @@ const Navbar = () => {
                <li><Link to="/" className="home-menu">Home</Link></li>
                <li><Link to="/about">About Us</Link></li>
                <li><Link to="/services">Services</Link></li>
+               <li><Link to="/joinus">Join Us</Link></li>
+
                {/* <li> <Link to="/news">Blogs</Link></li> */}
                {/* <li><Link to="/contact">Contact</Link></li> */}
                {/* <li><Link to="/login">Log In</Link></li> */}
@@ -35,12 +37,14 @@ const Navbar = () => {
                <li><Link to="/" className="home-menu">Home</Link></li>
                <li><Link to="/about">About Us</Link></li>
                <li><Link to="/services">Services</Link></li>
+               <li><Link to="/joinus">Join Us</Link></li>
+
                {/* <li> <Link to="/news">Blogs</Link></li> */}
                {/* <li><Link to="/contact">Contact</Link></li> */}
                {/* <li><Link to="/login">Log In</Link></li> */}
 
                </ul>
-            </div> 
+            </div>
          </div>
          }
 
