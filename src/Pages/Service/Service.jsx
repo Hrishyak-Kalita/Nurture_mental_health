@@ -9,12 +9,11 @@ const Service = () => {
 
   return (
     <>
-<<<<<<<<< Temporary merge branch 1
+      {/* <TileDesc name="OUR SERVICES" description="SERVICES"/> */}
+
       {/* <TileDesc name="OUR SERVICES" /> */}
       <Quote heading="Our Services" subHeading="Get the best Therapy and Counselling"/>
-=========
-      <TileDesc name="OUR SERVICES" description="SERVICES"/>
->>>>>>>>> Temporary merge branch 2
+
 
       <div className="ServiceContainer">
         {serviceData?.map((item) =>
