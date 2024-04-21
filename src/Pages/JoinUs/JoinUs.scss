@@ -2,31 +2,50 @@
 .joinBox{
     width: 100%;
     display: grid;
-   grid-template-columns: 1fr 1fr;
+    grid-template-columns: 50% 50%;
     padding:2rem;
+    
 
+
+  
     .leftjoinbox{
         padding: 1rem;
-    
+         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin: 0 2rem 0 0;
+        .JoinHeading{
+            font-weight: bolder;
+            font-size: 2rem;
+            color: rgb(8, 248, 80);
+            text-align: center;
+           h1{ background-color: rgb(164, 241, 241);
+
+           }
+        }
+
         .applybox{
-            background-color: rgb(230, 238, 218);
             padding: 2rem;
-        
+            // box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            margin: 1rem;
             .joinpara{
                 font-weight: 600;
             padding: 1rem 2rem;
             .joinas{
+                font-size: large;
+                color:rebeccapurple;
                 font-weight: bolder;
+                background-color:greenyellow;
+                padding: 1px 6px 1px 6px;
+                border-radius: 2px;
             }
             }
             .Applybtn {
             background-color: rgb(67, 234, 131);
             color: aliceblue;
             height: fit-content;
-            width: 9rem;
+            width: 8.5rem;
             border-radius: 4px;
             border: 1px solid whitesmoke;
-            padding: 0.7rem 0rem 0.7rem 01rem;
+            padding: 0.5rem 0rem 0.7rem 1rem;
             font-size: 1.1rem;
             font-weight: 900;
         color: white;
@@ -36,7 +55,22 @@
     }
 
     .rightjoinbox{
+        padding: 1rem;
+        
         background-color: rgb(180, 180, 224);
+    }
+}
+
+@media screen and (max-width: 993px){
+    .joinBox{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        padding:2rem;
+    }
+    .rightjoinbox{
+        margin: 2rem 0;
+
     }
 }
 

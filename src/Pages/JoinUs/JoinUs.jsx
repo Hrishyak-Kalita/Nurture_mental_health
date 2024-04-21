@@ -1,10 +1,17 @@
 import React from "react";
+import { TileDesc, Quote } from "../../Components";
+
 import "./JoinUs.scss";
 const JoinUs = () => {
   return (
     <>
+
+<Quote heading="Our Services" subHeading="Get the best Psychology Therapy and Counselling "  bgImage="https://res.cloudinary.com/dttau3ddh/image/upload/v1709379567/img-zxHGFI9nYnhAG4Td44jdT_n45d7y.png" />
       <div className="joinBox">
+        
         <div className="leftjoinbox">
+        <span className="JoinHeading"> <h1>Join Us Today!</h1></span>
+
           <div id="JoinVolunteer" className="applybox">
             <p className="joinpara">
               Join us as <span className="joinas">Volunteer</span> for awareness
@@ -28,7 +35,7 @@ const JoinUs = () => {
             </button>
           </div>
           <div id="Collaboration" className="applybox">
-            <h4>Collaborate With us</h4>
+            <span className="JoinHeading"><h1>Collaborate With us</h1></span>
             <p className="joinpara">
               We invite individual/organization to{" "}
               <span className="joinas">Collaborate</span> with us in offering
