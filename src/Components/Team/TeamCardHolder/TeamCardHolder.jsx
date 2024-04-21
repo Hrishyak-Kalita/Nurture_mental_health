@@ -4,13 +4,11 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import './TeamCardHolder.scss'
-import { Icon } from '@iconify/react';
 import Cards from '../Cards/Cards'
 import data from "../../../assets/teams.json"
 const TeamCardHolder = ({ heading }) => {
 
 
-    const background = "https://img.freepik.com/free-photo/rpa-concept-with-blurry-hand-touching-screen_23-2149311914.jpg?w=1380&t=st=1703436938~exp=1703437538~hmac=a1eb844c4027f4d6afa57abdd756c14ee294fafcc49b1236eda932d3f52326d0"
     return (
         <>
             <div className='holderContainer'>
@@ -19,8 +17,10 @@ const TeamCardHolder = ({ heading }) => {
                 </h1>
                 <div className="holder">
                     {
-                        data?.map((item) => <Cards key={item.id} name={item?.name} designation={item?.designation} bio={item?.company?.catchPhrase} photoSrc={item?.image} />)
+                        
+                        data?.map((item) => <Cards key={item.id} name={item?.name} designation={item?.designation} bio={item?.company?.catchPhrase} photoSrc={item?.image} fees={item?.fees}/>)
                     }
+                    
                 </div>
             </div>
 

@@ -4,16 +4,10 @@ const Teams = () => {
 
   return (
     <div>
-      <TileDesc name="Our Teams" />
-      <TeamCardHolder
-        heading="Software Team"
-      />
 
       <TeamCardHolder
-        heading="Marketing Team"
+        heading="Specialists"
       />
-
-
 
 
     </div>
