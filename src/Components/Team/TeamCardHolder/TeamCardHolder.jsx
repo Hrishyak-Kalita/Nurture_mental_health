@@ -45,7 +45,7 @@ const TeamCardHolder = ({ heading }) => {
                 >
                     {data.map((item) => (
                         <SwiperSlide key={item.id}>
-                            <Cards key={item.id} name={item?.name} designation={item?.designation} bio={item?.company?.catchPhrase} photoSrc={item?.image} />
+                           <Cards key={item.id} name={item?.name} designation={item?.designation} bio={item?.company?.catchPhrase} photoSrc={item?.image} fees={item?.fees}/>
                         </SwiperSlide>
                     ))}
 
