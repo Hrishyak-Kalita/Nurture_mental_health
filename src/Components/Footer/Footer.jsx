@@ -22,10 +22,10 @@ const Footer = () => {
           <a href="https://www.youtube.com/@nurturementalhealthwithlim7868">
             <Icon width="30" icon="mdi:youtube" color="white" />
           </a>
-          <a href="/">
+          <a href="https://www.instagram.com/nurture_mental_health_?igsh=MXR4dGpqZ3R1cjJpMg==">
             <Icon width="30" icon="mdi:instagram" color="white" />
           </a>
-          <a href="/">
+          <a href="https://www.facebook.com/share/yoiWf9pii6mr7Leo/?mibextid=qi2Omg">
             <Icon width="30" icon="ic:baseline-facebook" color="white" />
           </a>
         </div>

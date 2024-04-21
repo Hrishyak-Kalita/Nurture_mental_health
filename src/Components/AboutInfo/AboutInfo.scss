@@ -33,6 +33,13 @@
             width: 60%;
             padding: 1rem 0;
         }
+        h4{
+            padding:0.6rem 1rem;
+            background-color: rgb(92, 240, 141); /* For browsers that do not support gradients */
+            background-image: linear-gradient(rgb(118, 255, 166), rgb(214, 234, 227));   
+                     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+        }
     }
     
     .about1{
