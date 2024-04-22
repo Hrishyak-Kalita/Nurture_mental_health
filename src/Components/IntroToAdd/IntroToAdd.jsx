@@ -11,6 +11,7 @@ const IntroToAdd = ({ phoneNumber, message }) => {
     return (
     <div className="IntroToAddbox">
         <button className="JoinBtn" onClick={handleWhatsAppGroup}>Join our Free Workshops</button>
+        <span className="discount"> 50% OFF for Students</span>
     </div>
     );
 };

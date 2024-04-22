@@ -69,10 +69,8 @@ const AboutInfo = ({ heading, content, imageLink1,imageLink2, icon_name }) => {
         </div>
       </div>
       <div className="aboutImage">
-        
         <img src={imageLink1} alt="blog info descriptor" />
         <h4>Ms Limpee Kalita :  Counselling Psychologist and Founder</h4>
-        
         <img src={imageLink2} alt="blog info descriptor" />
         {/* <img src={imageLink} alt="blog info descriptor" /> */}
       </div>

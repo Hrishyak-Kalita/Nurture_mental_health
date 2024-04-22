@@ -6,9 +6,21 @@
     position: relative;
     top: 2rem;
     z-index: 1;
-    background-color: rgb(223, 222, 209);
-    padding: 2rem 0 0 0 ;
+    background-image: url("https://res.cloudinary.com/dttau3ddh/image/upload/v1713730329/Sprinkle_zsxy5a.svg");
+    display: flex;
+    padding: 2rem 0 10rem 0 ;
+    
 
+    .discount{
+        margin: 1rem 0 0 15rem;
+       padding: 1rem  ;
+       font-size: 2rem;
+       font-weight: 800;
+      height: fit-content;
+       color: whitesmoke;
+        // background-color: rgb(65, 243, 65);
+    //    background-image: url("https://res.cloudinary.com/dttau3ddh/image/upload/v1713730329/Sprinkle_zsxy5a.svg");
+    }
     .JoinBtn {
         background-color: rgb(40, 239, 99);
         color: aliceblue;
@@ -20,8 +32,23 @@
         font-size: 1.2rem;
         font-weight: 700;
         cursor: pointer;
+        margin: 1rem;
     }
     
     
     
+}
+
+@media  screen and (max-width:993px) {
+    .IntroToAddbox{
+        padding: 2rem 0 13rem 0 ;
+        display:grid;
+        grid-template-rows: 50% 50%;
+
+        
+        .discount{
+        margin: 6rem 0 0 2rem;
+        padding: 0;
+}
+    }
 }
