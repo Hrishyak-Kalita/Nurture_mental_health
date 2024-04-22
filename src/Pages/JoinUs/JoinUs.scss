@@ -13,28 +13,22 @@
         margin: 0 2rem 0 0;
         .JoinHeading{
             font-weight: bolder;
-            font-size: 2rem;
+            font-size: 1.5rem;
             color: rgb(11, 13, 12);
             text-align: center;
             
-           h1{ background-color: rgb(198, 215, 215);
-            border-radius: 10px;
-           }
+          
         }
-        #collabhead{
-            
-            h1{ padding: 0.6rem;
-               }
-        }
+        
         .applybox{
-            padding: 2rem;
+            padding: 1rem 0 1rem 0;
             // box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             margin: 1rem;
             .joinpara{
-                font-weight: 600;
-            padding: 1rem 2rem;
+                font-weight: 500;
+            padding: 1rem 0;
             .joinas{
-                font-size: large;
+                font-size: medium;
                 color:rebeccapurple;
                 font-weight: bolder;
                 background-color:greenyellow;
@@ -65,7 +59,7 @@
         // background-size: contain;
         // background-repeat: no-repeat;
         img{
-            aspect-ratio: 5/3.7;
+            aspect-ratio: 5.6/3.7;
             object-fit: cover;
             width: 100%;
             padding: 1rem 0;
@@ -78,11 +72,16 @@
         width: 100%;
         display: grid;
         grid-template-columns: 100%;
-        padding:2rem;
-    }
+        padding:1rem;
+    
     .rightjoinbox{
         margin: 2rem 0;
 
     }
+    .leftjoinbox{
+        
+        margin: 0 ;
+    }
+}
 }
 

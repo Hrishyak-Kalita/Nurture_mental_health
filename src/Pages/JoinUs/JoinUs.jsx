@@ -69,7 +69,7 @@ const JoinUs = () => {
           </div>
           <div id="Collaboration" className="applybox">
             <span className="JoinHeading" id="collabhead">
-              <h2>Collaborate With us</h2>
+              <h2>Collaborate With U s</h2>
             </span>
             <p className="joinpara">
               <p>
