@@ -20,7 +20,7 @@ const Quote = ({ heading, subHeading, bgImage, buttonTitle }) => {
                 className="quote_div centerUsingFlex">
                 <div className="quote">
                     <h1>{heading}</h1>
-                    <p>{subHeading}</p>
+                    <h3>{subHeading}</h3>
                 </div>
                 {/* <div className="aptBtn centerUsingFlex">
                     <button>{buttonTitle}</button>

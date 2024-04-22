@@ -1,5 +1,5 @@
 import { Footer, Navbar } from './Components'
-import { About, ErrorPage, Home, Login, News, Contact, Teams, Register, Service } from './Pages/index'
+import { About, ErrorPage, Home, Login, News, Contact, Teams, Register, Service,JoinUs } from './Pages/index'
 import { Routes, Route } from 'react-router-dom'
 import './App.css'
 
@@ -27,6 +27,7 @@ function App() {
         <Route path='*' element={<ErrorPage />} />
         <Route path='/services' element={<Service />} />
         <Route path='/teams' element={<Teams />} />
+        <Route path='/joinus' element={<JoinUs />} />
       </Routes>
       <Footer />
     </>
