@@ -41,24 +41,19 @@ const JoinUs = () => {
           <div id="joinIntern" className="applybox">
             <p className="joinpara">
               <p>
-                Are you interested in gaining valuable experience while making a
-                difference in the community? We're looking for enthusiastic
-                interns to join our awareness programs and workshops. As an
-                intern, you'll play a key role in organizing, coordinating, and
-                participating in our events to raise awareness and educate
-                others.
+                Our psychology internship program emphasizes hands-on
+                experience, allowing interns to conduct individual and group
+                sessions for clients. You will learn practical therapeutic
+                approaches, assessment techniques, and more.
               </p>
               <p>
-                You'll work closely with our team to help plan workshops, engage
-                with participants, and ensure successful program execution.
-                However, on successful completion, you'll receive a
-                recommendation letter as recognition of your hard work and
-                dedication.
+                On successful completion, you'll receive a Certification of
+                Completeion and Letter of Recommendation as recognition of your
+                hard work and dedication.
               </p>
               <p>
-                Ready to start your journey with us? Click the button below to
-                apply for our <span className="joinas">Internship</span>{" "}
-                internship program and make an impact in the community!
+                Don't miss out, apply now! for our{" "}
+                <span className="joinas">Internship</span> program.
               </p>
             </p>
             <button className="Applybtn vbtn">
@@ -69,16 +64,16 @@ const JoinUs = () => {
           </div>
           <div id="Collaboration" className="applybox">
             <span className="JoinHeading" id="collabhead">
-              <h2>Collaborate With U s</h2>
+              <h2>Collaborate With Us</h2>
             </span>
             <p className="joinpara">
               <p>
                 We are extending an invitation to individuals and organizations
-                to <span className="joinas">Collaborate</span> with us in offering psychological services and
-                programs. We are flexible and eager to explore various ideas
-                within this field to benefit our community. Let's work together
-                to develop and execute initiatives that promote mental health
-                and well-being
+                to <span className="joinas">Collaborate</span> with us in
+                offering psychological services and programs. We are flexible
+                and eager to explore various ideas within this field to benefit
+                our community. Let's work together to develop and execute
+                initiatives that promote mental health and well-being
               </p>
               <p>
                 Whether you're interested in contributing to existing programs
@@ -87,8 +82,10 @@ const JoinUs = () => {
                 on the mental health of our community and work alongside a
                 passionate team.
               </p>
-              <p>Interested in collaborating? Click the button below to connect with us, and let's start exploring how we can work together.</p>
-             
+              <p>
+                Interested in collaborating? Click the button below to connect
+                with us, and let's start exploring how we can work together.
+              </p>
             </p>
             <button className="Applybtn vbtn">
               <a href="https://docs.google.com/forms/d/e/1FAIpQLScRwt2UJEHIXv6PaHElvlCof_9VOQEe_lz-8RVSVvgyXOlC6w/viewform">
@@ -98,9 +95,18 @@ const JoinUs = () => {
           </div>
         </div>
         <div className="rightjoinbox">
-          <img src="https://res.cloudinary.com/dttau3ddh/image/upload/v1709373874/IMG_20240220_120139_mp1d2v.jpg" alt="" />
-        <img src="https://res.cloudinary.com/dttau3ddh/image/upload/v1709373862/IMG_20230720_134904_qjat3g.jpg" alt="" />
-       <img src="https://res.cloudinary.com/dttau3ddh/image/upload/v1709373832/IMG_20240111_141914_ehrf3p.jpg" alt="" />
+          <img
+            src="https://res.cloudinary.com/dttau3ddh/image/upload/v1709373874/IMG_20240220_120139_mp1d2v.jpg"
+            alt=""
+          />
+          <img
+            src="https://res.cloudinary.com/dttau3ddh/image/upload/v1709373862/IMG_20230720_134904_qjat3g.jpg"
+            alt=""
+          />
+          <img
+            src="https://res.cloudinary.com/dttau3ddh/image/upload/v1709373832/IMG_20240111_141914_ehrf3p.jpg"
+            alt=""
+          />
         </div>
       </div>
     </>
