@@ -11,7 +11,7 @@ const Emergency = ({ title }) => {
           src="https://res.cloudinary.com/dttau3ddh/image/upload/v1709041556/IMG_20240226_140813_scggzm.jpg"
         />
       </div>
-      <h4 className="emHead">Limpee Kalita</h4>
+      <h3 className="emHead">Limpee Kalita</h3>
       <p className="emSubHead">
         Psychologist
         <span className="vr">|</span> CBT Practitioner{" "}

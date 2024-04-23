@@ -4,7 +4,7 @@ const Docs = ({ title }) => {
     return (
 
         <div className="Doct">
-            <h4>Our Mision</h4>
+            <h3>Our Mision</h3>
             <p className="DocPara">
             Our mission is to provide accessible mental health support, reduce stigma, etc. We believe that everyone deserves to lead a fulfilling and mentally healthy life, and we are committed to raising awareness, providing resources, etc. to achieve this vision.
             </p>

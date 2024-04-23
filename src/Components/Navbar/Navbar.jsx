@@ -16,7 +16,7 @@ const Navbar = () => {
          <nav className="nav-links">
             <ul className="max-width-links">
                <li><Link to="/" className="home-menu">Home</Link></li>
-               <li><Link to="/teams">Teams</Link></li>
+               <li><Link to="/teams">Team</Link></li>
                <li><Link to="/about">About Us</Link></li>
                <li><Link to="/services">Services</Link></li>
                <li><Link to="/joinus">Join Us</Link></li>
