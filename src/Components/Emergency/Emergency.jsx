@@ -18,7 +18,7 @@ const Emergency = ({ title }) => {
         <span className="vr">|</span> Hypnotherapist{" "}
         <span className="vr">|</span> Art Therapsit{" "}
         <span className="vr">|</span> Color Therapist{" "}
-        <span className="vr">|</span> Carrier Counsellor
+        <span className="vr">|</span> Career Counselor{" "}
         <span className="vr">|</span> Founder of Nurture Mental Health
       </p>
       {/* <button className='readMorebtn' id="ReadEmer">Read More</button> */}
