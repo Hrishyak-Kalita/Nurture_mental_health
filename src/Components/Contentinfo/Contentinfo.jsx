@@ -15,7 +15,7 @@ export default function Contentinfo() {
           At Nurture Mental Health, we are dedicated to fostering mental
           well-being and creating a supportive community where individuals can
           thrive. Established with a commitment to promote mental health
-          awareness, providing accessible counseling, etc. We are here to guide
+          awareness, providing accessible counselling, etc. We are here to guide
           and support you on your journey to a healthier, more fulfilling life.
         </p>
 
@@ -44,25 +44,22 @@ export default function Contentinfo() {
             {" "}
             <span>Kids & Adolescent Therapy</span>
           </li>
-      
+
           <li className="li_el">
             {" "}
-            <span>Carrier Counselling</span>
+            <span>Career Counselling</span>
           </li>
           <li className="li_el">
             {" "}
-            <span>Addiction and Substance Abuse Counseling</span>
+            <span>Addiction and Substance Abuse Counselling</span>
           </li>
           <li className="li_el">
             {" "}
-            <span>LGBTQ+ Affirmative Counseling</span>
+            <span>LGBTQ+ Affirmative Counselling</span>
           </li>
-          
         </ul>
         <Link to="/services">
-        <button className="Readbtn" >
-          Explore Services
-        </button>
+          <button className="Readbtn">Explore Services</button>
         </Link>
       </div>
       <div className="DocImg">

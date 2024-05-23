@@ -19,7 +19,7 @@
   },
   {
     "id": "1002",
-    "service": "Addiction and Substance Abuse Counseling",
+    "service": "Addiction and Substance Abuse Counselling",
     "content": "Our services provide compassionate and evidence-based support forindividuals facing challenges related to substance use. We understand the complexities of addiction and are dedicated to helping you on your journey to recovery, providing guidance,   understanding, and tailored interventions..Key services include: ",
     "serviceList": [
       "Assessment & Evaluation",
@@ -27,8 +27,8 @@
       "CBT",
       "Breaking Free from Drug, Alcohol etc. Addiction",
       "Group Therapy Sessions",
-      "Individual Counseling",
-      "Family Counseling and Support",
+      "Individual Counselling",
+      "Family Counselling and Support",
       "Holistic Well-being Approach"
     ],
     "serviceImage": "https://res.cloudinary.com/dttau3ddh/image/upload/v1708184296/descriptiona-3d-cartoonin-this-image-prompt-env-upscaled_k4dsrk.jpg"
@@ -106,7 +106,7 @@
 
   {
     "id": "1008",
-    "service": "Career Counseling",
+    "service": "Career Counselling",
     "content": "We specialize in conducting psychometric assessments to thoroughly analyze individual's skills, interests, personality traits, and recommend career paths accordingly. Our assessments focus particularly on intelligence, social aptitude, and physical capabilities, enabling us to provide tailored recommendations for career choices, learning opportunities, as well as suitable universities and colleges.Our Career Exploration Services include:",
     "serviceList": [
       "Industry Insights & Trends",
@@ -120,7 +120,7 @@
 
   {
     "id": "1009",
-    "service": "LGBTQ+ Affirmative Counseling",
+    "service": "LGBTQ+ Affirmative Counselling",
     "content": "Our services provide a safe, inclusive, and affirming space for individuals within the LGBTQ+ community. We understand the unique challenges and experiences faced by this diverse community and are committed to offering support, understanding, and empowerment. Whether you're navigating issues related to identity, relationships, or mental health, our counselors are here to assist you on your journey.Key services include :",
     "serviceList": [
       "Identity Exploration",

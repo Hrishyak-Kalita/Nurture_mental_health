@@ -8,10 +8,14 @@ const Appointment = ({ title }) => {
       <div className="input">
         <p>
           <ul>
-            <h5>Online Services</h5>
+            <li>
+              <h5>Online Services</h5>
+            </li>
           </ul>
           <ul>
-            <h5>Offline services :</h5>
+            <li>
+              <h5>Offline services :</h5>
+            </li>
             Kestopur, Dunlop, Bally, Joka, Patuli, Kalyani, Durgapur, Asansol,
             Dhanbad
           </ul>
