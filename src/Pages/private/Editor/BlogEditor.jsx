@@ -3,6 +3,7 @@ import axios from "axios";
 import "./BlogEditor.scss";
 import JoditEditor from 'jodit-react';
 import {useLocation, useNavigate } from "react-router-dom";
+import { useAuth } from "../../../Context/context";
 
 const BlogEditor = () => {
   // const proxy= import.meta.env.VITE_PROXY
@@ -15,10 +16,13 @@ const BlogEditor = () => {
   const [cover, setCover] = useState('');
   const location = useLocation();
   const { placeholder = {} } = location.state || {};
+  const {isAuthenticated} = useAuth()
 
   function isEmptyObject(obj) {
     return Object.keys(obj).length === 0 && obj.constructor === Object;
   }
+
+  if(!isAuthenticated) navigate("/login")
 
   useEffect(() => {
     if (!isEmptyObject(placeholder)) {
