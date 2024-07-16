@@ -4,17 +4,21 @@ import './LoginForm.scss'
 import { Link } from 'react-router-dom';
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 import { firebaseApp } from '../../../firebase.config';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate,useLocation } from 'react-router-dom';
 import { useAuth } from '../../Context/context';
 const LoginForm = ({ type }) => {
-    const {login,isAuthenticated} = useAuth()
-    const navigate= useNavigate()
-
-    useEffect(()=>{
-        if(isAuthenticated) navigate('/articles/edit-articles')
-    },[isAuthenticated])
-
-    if(isAuthenticated) navigate('/articles/edit-articles')
+    const { login, isAuthenticated } = useAuth();
+    const location = useLocation();
+    const navigate = useNavigate();
+  
+    // Check if the user is already authenticated
+    useEffect(() => {
+      if (isAuthenticated) {
+        const from = location.state?.from?.pathname || '/';
+        navigate(from, { replace: true });
+      }
+    }, [isAuthenticated, location, navigate]);
+    
 
       const auth = getAuth(firebaseApp);
       const Login=async(e)=>{
@@ -55,7 +59,10 @@ const LoginForm = ({ type }) => {
     }
 
 
-
+    // if(isAuthenticated) return <div className="logOutMenu">
+    //   <button className='lgMenuBtn' onClick={()=>{logout}}>Logout</button>
+    //   <button className='lgMenuBtn' onClick={()=>{navigate("/articles/edit-articles")}}>Edit Blogs</button>
+    //  </div>
 
     return (
         <div className='loginForm'>

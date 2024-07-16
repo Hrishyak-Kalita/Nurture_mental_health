@@ -62,7 +62,11 @@ const EditBlog = () => {
 
   return (
     <div className='editBlog'>
-      <div className="heading"><h1>Blog Settings</h1> <span><button className='logOutBtn' onClick={handleLogout}>Logout</button></span></div>
+      <div className="heading">
+      <h1>Blog Settings</h1>
+       <span><button className='headingBtn' onClick={handleLogout}>Logout</button></span>
+       <span><button className='headingBtn' style={{backgroundColor:"green"}} onClick={()=>{navigate("/articles/editor")}}>New Blog</button></span>
+       </div>
       <div className="blogList">
         <List
           itemLayout="horizontal"
