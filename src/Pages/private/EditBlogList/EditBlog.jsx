@@ -4,14 +4,17 @@ import axios from 'axios';
 import './editBlog.scss';
 import { Link, useNavigate } from 'react-router-dom';
 import { Loader } from '../../../Components';
+import { useAuth } from '../../../Context/context';
 
 const EditBlog = () => {
   const [blogs, setBlogs] = useState();
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [blogIdToDelete, setBlogIdToDelete] = useState(null);
   const navigate = useNavigate();
+  const {logout,isAuthenticated} = useAuth()
   // const proxy= import.meta.env.VITE_PROXY
   const proxy="https://nurture-mental-health-api.onrender.com/api/v1"
+  if(!isAuthenticated) navigate("/login")
 
   useEffect(() => {
     fetchBlogs();
@@ -30,6 +33,11 @@ const EditBlog = () => {
     setBlogIdToDelete(pid);
     setIsModalVisible(true);
   };
+
+  const handleLogout= ()=>{
+    logout();
+    navigate("/login")
+  }
 
   const handleDelete = async () => {
     try {
@@ -54,7 +62,7 @@ const EditBlog = () => {
 
   return (
     <div className='editBlog'>
-      <div className="heading"><h1>Blog Settings</h1></div>
+      <div className="heading"><h1>Blog Settings</h1> <span><button className='logOutBtn' onClick={handleLogout}>Logout</button></span></div>
       <div className="blogList">
         <List
           itemLayout="horizontal"
@@ -63,7 +71,7 @@ const EditBlog = () => {
             <List.Item>
               <List.Item.Meta
                 avatar={<Avatar src={item?.cover} />}
-                title={<Link to={`/articles/${item?._id}`}>{item?.title}</Link>}
+                title={<Link to={`/articles/${item?._id}`}>{item?.title.slice(0,80)}</Link>}
               />
               <div className="btns">
                 <button
@@ -88,7 +96,7 @@ const EditBlog = () => {
 
       <Modal
         title="Confirm Delete"
-        visible={isModalVisible}
+        open={isModalVisible}
         onOk={handleDelete}
         onCancel={handleCancel}
       >
