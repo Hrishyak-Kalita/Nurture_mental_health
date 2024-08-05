@@ -1,20 +1,20 @@
-import React, { useEffect, useState } from 'react';
-import { Avatar, List, Modal } from 'antd';
-import axios from 'axios';
-import './editBlog.scss';
-import { Link, useNavigate } from 'react-router-dom';
-import { Loader } from '../../../Components';
-import { useAuth } from '../../../Context/context';
+import React, { useEffect, useState } from "react";
+import { Avatar, List, Modal } from "antd";
+import axios from "axios";
+import "./editBlog.scss";
+import { Link, useNavigate } from "react-router-dom";
+import { Loader } from "../../../Components";
+import { useAuth } from "../../../Context/context";
 
 const EditBlog = () => {
   const [blogs, setBlogs] = useState();
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [blogIdToDelete, setBlogIdToDelete] = useState(null);
   const navigate = useNavigate();
-  const {logout,isAuthenticated} = useAuth()
-  // const proxy= import.meta.env.VITE_PROXY
-  const proxy="https://nurture-mental-health-api.onrender.com/api/v1"
-  if(!isAuthenticated) navigate("/login")
+  const { logout, isAuthenticated } = useAuth();
+  const proxy = import.meta.env.VITE_PROXY;
+
+  if (!isAuthenticated) navigate("/login");
 
   useEffect(() => {
     fetchBlogs();
@@ -34,14 +34,16 @@ const EditBlog = () => {
     setIsModalVisible(true);
   };
 
-  const handleLogout= ()=>{
+  const handleLogout = () => {
     logout();
-    navigate("/login")
-  }
+    navigate("/login");
+  };
 
   const handleDelete = async () => {
     try {
-      const result = await axios.post(`${proxy}/post/delete-post`, { pid: blogIdToDelete });
+      const result = await axios.post(`${proxy}/post/delete-post`, {
+        pid: blogIdToDelete,
+      });
       if (result) {
         fetchBlogs();
       }
@@ -58,15 +60,29 @@ const EditBlog = () => {
     setBlogIdToDelete(null);
   };
 
-  if(!blogs) return <Loader/>
+  if (!blogs) return <Loader />;
 
   return (
-    <div className='editBlog'>
+    <div className="editBlog">
       <div className="heading">
-      <h1>Blog Settings</h1>
-       <span><button className='headingBtn' onClick={handleLogout}>Logout</button></span>
-       <span><button className='headingBtn' style={{backgroundColor:"green"}} onClick={()=>{navigate("/articles/editor")}}>New Blog</button></span>
-       </div>
+        <h1>Blog Settings</h1>
+        <span>
+          <button className="headingBtn" onClick={handleLogout}>
+            Logout
+          </button>
+        </span>
+        <span>
+          <button
+            className="headingBtn"
+            style={{ backgroundColor: "green" }}
+            onClick={() => {
+              navigate("/articles/editor");
+            }}
+          >
+            New Blog
+          </button>
+        </span>
+      </div>
       <div className="blogList">
         <List
           itemLayout="horizontal"
@@ -75,18 +91,26 @@ const EditBlog = () => {
             <List.Item>
               <List.Item.Meta
                 avatar={<Avatar src={item?.cover} />}
-                title={<Link to={`/articles/${item?._id}`}>{item?.title.slice(0,80)}</Link>}
+                title={
+                  <Link to={`/articles/${item?._id}`}>
+                    {item?.title.slice(0, 80)}
+                  </Link>
+                }
               />
               <div className="btns">
                 <button
-                  className='action'
+                  className="action"
                   style={{ backgroundColor: "#3D31E0" }}
-                  onClick={() => navigate("/articles/editor", { state: { placeholder: item } })}
+                  onClick={() =>
+                    navigate("/articles/editor", {
+                      state: { placeholder: item },
+                    })
+                  }
                 >
                   Edit
                 </button>
                 <button
-                  className='action'
+                  className="action"
                   style={{ backgroundColor: "#E04932" }}
                   onClick={() => showDeleteModal(item?._id)}
                 >
