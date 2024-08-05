@@ -2,16 +2,16 @@
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 const firebaseConfig = {
-  apiKey: "AIzaSyAzHAZf0d52BjqIJkyhBrP3TjIEVTRj6Y4",
-  authDomain: "nurture-mental-health.firebaseapp.com",
-  projectId: "nurture-mental-health",
-  storageBucket: "nurture-mental-health.appspot.com",
-  messagingSenderId: "132521845320",
-  appId: "1:132521845320:web:98582bebcf781e85662e7d",
-  measurementId: "G-B7VS5XP62B"
+  apiKey: import.meta.env.VITE_API_KEY,
+  authDomain: import.meta.env.VITE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_APP_ID,
+  measurementId: import.meta.env.VITE_MEASUREMENT_ID,
 };
 
 // Initialize Firebase
 const firebaseApp = initializeApp(firebaseConfig);
 const analytics = getAnalytics(firebaseApp);
-export {firebaseApp, analytics}
+export { firebaseApp, analytics };

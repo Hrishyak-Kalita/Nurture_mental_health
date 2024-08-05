@@ -1,35 +1,34 @@
 import { useState, useRef, useMemo, useEffect } from "react";
 import axios from "axios";
 import "./BlogEditor.scss";
-import JoditEditor from 'jodit-react';
-import {useLocation, useNavigate } from "react-router-dom";
+import JoditEditor from "jodit-react";
+import { useLocation, useNavigate } from "react-router-dom";
 import { useAuth } from "../../../Context/context";
 
 const BlogEditor = () => {
-  // const proxy= import.meta.env.VITE_PROXY
-  const proxy="https://nurture-mental-health-api.onrender.com/api/v1"
-  const navigate=useNavigate()
+  const proxy = import.meta.env.VITE_PROXY;
+  const navigate = useNavigate();
   const editor = useRef(null);
-  const [content, setContent] = useState('');
-  const [bTitle, setBTitle] = useState('');
-  const [author, setAuthor] = useState('');
-  const [cover, setCover] = useState('');
+  const [content, setContent] = useState("");
+  const [bTitle, setBTitle] = useState("");
+  const [author, setAuthor] = useState("");
+  const [cover, setCover] = useState("");
   const location = useLocation();
   const { placeholder = {} } = location.state || {};
-  const {isAuthenticated} = useAuth()
+  const { isAuthenticated } = useAuth();
 
   function isEmptyObject(obj) {
     return Object.keys(obj).length === 0 && obj.constructor === Object;
   }
 
-  if(!isAuthenticated) navigate("/login")
+  if (!isAuthenticated) navigate("/login");
 
   useEffect(() => {
     if (!isEmptyObject(placeholder)) {
-      setContent(placeholder.content || '');
-      setAuthor(placeholder.author || '');
-      setCover(placeholder.cover || '');
-      setBTitle(placeholder.title || '');
+      setContent(placeholder.content || "");
+      setAuthor(placeholder.author || "");
+      setCover(placeholder.cover || "");
+      setBTitle(placeholder.title || "");
     }
   }, [placeholder]);
 
@@ -39,12 +38,12 @@ const BlogEditor = () => {
         title: bTitle,
         content: content,
         author: author,
-        cover: cover
+        cover: cover,
       });
 
       if (newPost) {
         alert("Post Created");
-        navigate(`/articles/${newPost?.data?.pid}`)
+        navigate(`/articles/${newPost?.data?.pid}`);
       } else {
         alert("Error Creating");
       }
@@ -60,12 +59,13 @@ const BlogEditor = () => {
         content: content,
         author: author,
         cover: cover,
-        pid: placeholder?._id
+        pid: placeholder?._id,
       });
 
       if (editedBlog) {
         alert("Success");
-        if(editedBlog?.data?.pid) navigate(`/articles/${editedBlog?.data?.pid}`)
+        if (editedBlog?.data?.pid)
+          navigate(`/articles/${editedBlog?.data?.pid}`);
       }
     } catch (err) {
       console.log(err);
@@ -76,9 +76,9 @@ const BlogEditor = () => {
   const config = useMemo(
     () => ({
       readonly: false, // all options from https://xdsoft.net/jodit/docs/,
-      placeholder: placeholder?.content || 'Start typing...',
-      height: '70vh',
-      toolbarAdaptive: true
+      placeholder: placeholder?.content || "Start typing...",
+      height: "70vh",
+      toolbarAdaptive: true,
     }),
     [placeholder.content]
   );
@@ -87,9 +87,15 @@ const BlogEditor = () => {
     <div className="EditorContainer">
       <div className="JDE">
         <div className="postBtn centerEle">
-          {!isEmptyObject(placeholder) ? 
-            <button className="pb" onClick={edit}>EDIT</button> : 
-            <button className="pb" onClick={addBlog}>POST</button>}
+          {!isEmptyObject(placeholder) ? (
+            <button className="pb" onClick={edit}>
+              EDIT
+            </button>
+          ) : (
+            <button className="pb" onClick={addBlog}>
+              POST
+            </button>
+          )}
         </div>
         <input
           required
@@ -127,6 +133,6 @@ const BlogEditor = () => {
       </div>
     </div>
   );
-}
+};
 
 export default BlogEditor;
