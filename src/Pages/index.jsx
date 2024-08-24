@@ -12,5 +12,4 @@ import Blog from './Blog/Blog'
 import BlogEditor from "./private/Editor/BlogEditor";
 import AllBlogs from "./AllBlogs/AllBlogs";
 
-
-export {Home, Login, News, Contact, About, ErrorPage, Teams, Register ,Service,JoinUs, Blog, BlogEditor, AllBlogs }
+export {Home, Login, News, Contact, About, ErrorPage, Teams, Register ,Service,JoinUs, Blog, BlogEditor, AllBlogs}
