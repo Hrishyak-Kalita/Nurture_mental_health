@@ -36,7 +36,7 @@ const Home = () => {
 
         <Testimonial_carousel />
         {/* <Testimonial_Clients/> */}
-        <Youtube width={50} height={35} />
+        {/* <Youtube width={50} height={35} /> */}
         {/* <Appointment_img_icon/> */}
         <FixedContact />
 
