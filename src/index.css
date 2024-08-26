@@ -2,6 +2,16 @@
   margin: 0;
 }
 */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+:root{
+  --hero-font:"DM Serif Text", serif;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
 font-family:sans-serif;
 }
