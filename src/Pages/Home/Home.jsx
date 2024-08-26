@@ -9,6 +9,7 @@ import MedicaIntro from '../../Components/MedicaIntro/MedicaIntro'
 import Contentinfo from '../../Components/Contentinfo/Contentinfo'
 import Testimonial_carousel from '../../Components/Testimonial_carousel/Testimonial_carousel'
 import { Helmet } from "react-helmet";
+import Hero from '../../Components/Hero/Hero'
 // import { Testimonial_Clients } from '../../Components/Testimonial_Clients/Testimonial_Clients'
 
 const Home = () => {
@@ -27,7 +28,8 @@ const Home = () => {
 
       <div className='home'>
         
-        <Carousel />
+        {/* <Carousel /> */}
+        <Hero/>
         <IntroToAdd phoneNumber="918638583313" size="20" message="Hi, I am seeking assistance from Nurture Mental Health Center"/>
 
         <MedicaIntro />
