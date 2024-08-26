@@ -1,6 +1,12 @@
 import React from "react";
 import "./Hero.scss";
-const Hero = () => {
+const Hero = ({ phoneNumber, message }) => {
+
+    const handleWhatsAppButtonClick = () => {
+        const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+        window.open(whatsappURL, '_blank');
+    };
+
   return (
     <>
       <div className="max-w-screen-2xl container mx-auto md:px-20 px-4 flex flex-col md:flex-row my-10 hero">
@@ -18,7 +24,7 @@ const Hero = () => {
               <span className="space-y-4">Ready for Mental Healing?</span>
               <br />
               <div className="bg-red-500 rounded-xl px-3 text-2xl w-fit my-3">
-                <button>Book an Apointment</button>
+                <button  onClick={handleWhatsAppButtonClick}>Book an Apointment</button>
               </div>
             </p>
           </div>

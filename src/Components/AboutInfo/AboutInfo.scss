@@ -1,106 +1,133 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-.about_container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    padding: 2rem 1rem;
-    
-    .content{
-       .heading{
-        font-family: 'Poppins', sans-serif;
-        padding: 1rem 0;
-       }
-
-       .para{
-        font-family: 'Poppins', sans-serif;
-        font-size: 1.1rem;
-        color: rgb(89, 89, 89);
-       }
-        padding: 5% 4%;
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+.about_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding: 2rem 1rem;
+  font-size: 20px;
+  .content {
+    .About_box {
+      .about1 {
+        .mainAboutHeading {
+          font-size: 24px;
+          padding: 0 0 1rem 0;
+          span {
+            display: flex;
+          }
+          display: flex;
+          flex-direction: row;
+        }
+      }
+    }
+    .heading {
+      font-family: "Poppins", sans-serif;
+      padding: 1rem 0;
     }
 
-    .aboutImage{
-        padding:1rem 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-        
-       
-        img{
-            aspect-ratio: 4/3.7;
-            object-fit: cover;
-            width: 60%;
-            padding: 1rem 0;
-        }
-        h4{
-            padding:0.6rem 1rem;
-            background-color: rgb(92, 240, 141); /* For browsers that do not support gradients */
-            background-image: linear-gradient(rgb(118, 255, 166), rgb(214, 234, 227));   
-                     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
-
-                     
-                        
-                     margin: -6rem 0 1.5rem 0;
-                    
-
-        }
+    .para {
+      font-family: "Poppins", sans-serif;
+      font-size: 1.1rem;
+      color: rgb(89, 89, 89);
     }
-    
-    .about1{
-        padding: 1rem 0;
-        .mainAboutHeading{
-            font-size: 2.5rem;
-        }
-    }
-}
+    padding: 5% 4%;
+  }
 
-.centerElements{
+  .aboutImage {
+    padding: 1rem 0;
     display: flex;
-        // justify-content: center;
-        // align-items: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 
+    img {
+      aspect-ratio: 4/3.7;
+      object-fit: cover;
+      width: 60%;
+      padding: 1rem 0;
+    }
+    h4 {
+      padding: 0.6rem 1rem;
+      background-color: rgb(
+        92,
+        240,
+        141
+      ); /* For browsers that do not support gradients */
+      background-image: linear-gradient(rgb(118, 255, 166), rgb(214, 234, 227));
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
+      margin: -6rem 0 1.5rem 0;
     }
+  }
 
-    @media screen and (max-width: 993px) {
-        .about_container{
-             .aboutImage{
-                img{
-                    aspect-ratio: 4/3.7;
-                    object-fit: cover;
-                    width: 80%;
-                    padding: 1rem 0;
-                }
-        
-        h4{ 
-            padding:0.6rem ;width: 70%;
-            font-size: 0.8rem;
-            text-align: center;
-            margin: -28% 0 1.5rem 0;
-        }
+  .about1 {
+    padding: 1rem 0;
+    h2 {
+      font-size: 17px;
+      font-weight: 600;
     }
+    .mainAboutHeading {
+        font-weight: 600;
+      font-size: 2.5rem;
     }
-    }
-
-    @media screen and (max-width: 635px) {
-        .about_container{
-             .aboutImage{
-        img{
-            // aspect-ratio: 4/3.7;
-            // object-fit: cover;
-            width: 80%;
-            padding: 1rem 0;
-        }
-        h4{ 
-            padding:0.6rem ;width: 80%;
-            font-size: 0.8rem;
-            text-align: center;
-            margin: -0.8rem 0 1.5rem 0;
-        }
-    }
-    }
+  }
 }
 
+.centerElements {
+  display: flex;
+  // justify-content: center;
+  // align-items: center;
+}
 
+@media screen and (max-width: 993px) {
+  .about_container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+    .aboutImage {
+      img {
+        aspect-ratio: 4/3.7;
+        object-fit: cover;
+        width: 80%;
+        padding: 1rem 0;
+      }
+
+      h4 {
+        padding: 0.6rem;
+        width: 70%;
+        font-size: 0.8rem;
+        text-align: center;
+        margin: -28% 0 1.5rem 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 635px) {
+  .about_container {
+    .content {
+      .About_box {
+        .about1 {
+          .mainAboutHeading {
+            flex-direction: column;
+          }
+        }
+        font-size: 14px;
+      }
+    }
+    .aboutImage {
+      img {
+        // aspect-ratio: 4/3.7;
+        // object-fit: cover;
+        width: 80%;
+        padding: 1rem 0;
+      }
+      h4 {
+        padding: 0.6rem;
+        width: 80%;
+        font-size: 0.8rem;
+        text-align: center;
+        margin: -0.8rem 0 1.5rem 0;
+      }
+    }
+  }
+}

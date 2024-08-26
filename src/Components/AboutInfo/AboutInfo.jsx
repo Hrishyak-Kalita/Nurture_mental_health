@@ -8,7 +8,7 @@ const AboutInfo = ({ heading, content, imageLink1,imageLink2, icon_name }) => {
         <div className="About_box">
           <div className="about1">
             <h1 className="mainAboutHeading">
-              Welcome to <img width="40" src="/logoOnly.svg" alt="" /> Nurture
+              <span>Welcome to <img width="30" src="/logoOnly.svg" alt="" /> </span> Nurture
               Mental Health
             </h1>
 
