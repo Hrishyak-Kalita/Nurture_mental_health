@@ -6,9 +6,9 @@ export default function Contentinfo() {
   return (
     <div className="ContentContainer">
       <div className="Medicacontent">
-        <h1>
-          Welcome to <img width="24" src="/logoOnly.svg" alt="" /> 
-          Nurture
+        <h1 className="medicacontentHeader">
+          <span>Welcome to <img width="24" src="/logoOnly.svg" alt="" />
+          </span> Nurture
           Mental Health
         </h1>
 
