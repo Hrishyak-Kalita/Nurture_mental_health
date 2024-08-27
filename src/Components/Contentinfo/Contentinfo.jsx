@@ -50,10 +50,10 @@ export default function Contentinfo() {
             {" "}
             <span>Career Counselling</span>
           </li>
-          <li className="li_el">
+          {/* <li className="li_el">
             {" "}
             <span>Addiction and Substance Abuse Counselling</span>
-          </li>
+          </li> */}
           <li className="li_el">
             {" "}
             <span>LGBTQ+ Affirmative Counselling</span>
