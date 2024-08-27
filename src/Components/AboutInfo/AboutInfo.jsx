@@ -1,29 +1,34 @@
 import { Icon } from "@iconify/react";
 import React from "react";
 import "./AboutInfo.scss";
-const AboutInfo = ({ heading, content, imageLink1,imageLink2, icon_name }) => {
+const AboutInfo = ({ heading, content, imageLink1, imageLink2, icon_name }) => {
   return (
     <div className="about_container ">
       <div className="content centerElements">
         <div className="About_box">
           <div className="about1">
             <h1 className="mainAboutHeading">
-              <span>Welcome to <img width="30" src="/logoOnly.svg" alt="" /> </span> Nurture
-              Mental Health
+              <span>
+                Welcome to <img width="30" src="/logoOnly.svg" alt="" />{" "}
+              </span>{" "}
+              Nurture Mental Health
             </h1>
 
             <p>
-              At Nurture Mental Health, we are passionate about
-              promoting mental health, fostering a supportive community, etc.
-              Founded on the principles of
-              empathy, inclusivity, integrity, we are dedicated to making a
-              positive impact on the mental well-being of individuals and the
-              community.
+              At Nurture Mental Health, we are passionate about promoting mental
+              health and fostering a supportive community. Founded on the
+              principles of empathy, inclusivity, integrity, we are dedicated to
+              making a positive impact on the mental well-being of individuals
+              and the community.
             </p>
           </div>
           <div className="about1">
             <h2>Our Vision</h2>
-            <p>To cultivate a society where mental health is prioritized, understood and nurtured, enabling individuals to thrive in their personal and communal pursuits.</p>
+            <p>
+              To cultivate a society where mental health is prioritized,
+              understood and nurtured, enabling individuals to thrive in their
+              personal and communal pursuits.
+            </p>
           </div>
           <div className="about1">
             <h2>Our Mission</h2>
@@ -39,11 +44,10 @@ const AboutInfo = ({ heading, content, imageLink1,imageLink2, icon_name }) => {
             <h2>Community Engagement</h2>
             <p>
               Beyond individual counseling, we actively engage with the
-              community through
-              workshops, outreach programs, collaborations with local
-              organizations. By fostering connections and spreading awareness,
-              we aim to create a culture of mental health understanding and
-              support.
+              community through workshops, outreach programs, collaborations
+              with local organizations. By fostering connections and spreading
+              awareness, we aim to create a culture of mental health
+              understanding and support.
             </p>
           </div>
           <div className="about1">
@@ -70,7 +74,7 @@ const AboutInfo = ({ heading, content, imageLink1,imageLink2, icon_name }) => {
       </div>
       <div className="aboutImage">
         <img src={imageLink1} alt="blog info descriptor" />
-        <h4>Ms Limpee Kalita :  Counselling Psychologist and Founder</h4>
+        <h4>Ms Limpee Kalita : Counselling Psychologist and Founder</h4>
         <img src={imageLink2} alt="blog info descriptor" />
         {/* <img src={imageLink} alt="blog info descriptor" /> */}
       </div>
