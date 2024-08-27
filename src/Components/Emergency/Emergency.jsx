@@ -1,19 +1,29 @@
-import React, { PureComponent } from 'react'
-import "./Emergency.scss"
+import { Avatar } from "antd";
+import React from "react";
+import "./Emergency.scss";
 const Emergency = ({ title }) => {
-    return (
+  return (
+    <div className="Emer">
+      {/* <h3>+0080 954 4557 884</h3> */}
+      <div className="EmerPara">
+        <Avatar
+          size={150}
+          src="https://res.cloudinary.com/dttau3ddh/image/upload/v1709041556/IMG_20240226_140813_scggzm.jpg"
+        />
+      </div>
+      <h3 className="emHead">Limpee Kalita</h3>
+      <p className="emSubHead">
+        Psychologist
+        <span className="vr">|</span> CBT Practitioner{" "}
+        <span className="vr">|</span> Hypnotherapist{" "}
+        <span className="vr">|</span> Art Therapsit{" "}
+        <span className="vr">|</span> Color Therapist{" "}
+        <span className="vr">|</span> Career Counsellor{" "}
+        <span className="vr">|</span> Founder of Nurture Mental Health
+      </p>
+      {/* <button className='readMorebtn' id="ReadEmer">Read More</button> */}
+    </div>
+  );
+};
 
-        <div className='Emer'>
-            <h4>For Emergencies</h4>
-            <h3>+0080 954 4557 884</h3>
-            <p className="EmerPara">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero amet perspiciatis fuga laudantium voluptas. Quis, ab similique aliquam, pariatur at incidunt sint minima quos a odio voluptate tempore magni.
-            </p>
-            <button className='readMorebtn' id="ReadEmer">Read More</button>
-
-        </div>
-
-    )
-}
-
-export default Emergency
+export default Emergency;

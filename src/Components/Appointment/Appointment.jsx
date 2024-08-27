@@ -1,17 +1,27 @@
-import React, { PureComponent } from 'react'
-import './Appointment.scss'
-const Appointment = ({ title }) => {
-    return (
-        <div className="Appointment" >
-            <h4>Book an appointment</h4>
-             <div className='inputss'>
-            <input type="name" placeholder="Name" className="input" id="name" />
-            <input type="number" placeholder="Phone" className="input" id="no" />
-            <input type="email" placeholder="Email" className="input" id="mail" />
-            </div>
-            <button id="make">Make an Appointmnet</button>
+import React from "react";
 
-        </div>
-    )
-}
-export default Appointment
+import "./Appointment.scss";
+const Appointment = ({ title }) => {
+  return (
+    <div className="Appointment">
+      <h3>How to Reach us</h3>
+      <div className="input">
+        <p>
+          <ul>
+            <li>
+              <h5>Online Services</h5>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <h5>Offline services :</h5>
+            </li>
+            Kestopur, Dunlop, Bally, Joka, Patuli, Kalyani, Durgapur, Asansol,
+            Dhanbad
+          </ul>
+        </p>
+      </div>
+    </div>
+  );
+};
+export default Appointment;

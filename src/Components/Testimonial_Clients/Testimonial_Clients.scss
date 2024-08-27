@@ -1,0 +1,58 @@
+.main_container {
+//   background-color: rgb(14, 235, 29);
+height: fit-content;
+  .clients {
+    // background-color: rgb(233, 235, 238);
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1),-2px -4px 15px -3px rgba(0,0,0,0.1);
+    margin: 1.7rem;
+    padding: 3rem;
+    border-radius: 2%;
+    box-shadow: 5px;
+
+    @media only screen and (max-width: 1092px) {
+      
+          margin: 1.8rem;
+          padding: 1rem 1.5rem;
+      
+  }
+
+    .image {
+      margin: 1rem;
+      width: 50%;
+      margin: auto;
+    }
+    &:hover{
+      box-shadow: 0px 10px 73px 23px rgba(0,0,0,0.1);
+    }
+   
+    .name { 
+      .client_name {
+        padding-top: 2rem;
+        display: flex;
+        justify-content: center;
+      }
+    }
+    .contain{
+        padding: 1.5rem 0;
+    }
+
+    .testimonial_read_more{
+      display: flex;
+      justify-content: end;
+      .readMoreButton{
+        background-color: rgb(255, 255, 255);
+        color: blue;
+        font-size: 1rem;
+        font-weight: 500;
+      }
+    }
+
+  }
+
+  .centerEle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+}

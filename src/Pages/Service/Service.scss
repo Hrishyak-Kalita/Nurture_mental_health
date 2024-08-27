@@ -1,31 +1,9 @@
-.HeadingImage {
-    height: 30rem;
-    width: 100%;
-    overflow: hidden;
-    background-image: url(https://cdn.pixabay.com/photo/2017/09/03/09/48/head-2709732_1280.jpg);
-    background-size: cover;
-    background-position: center;
-    text-align: center;
 
-
-    .virtualbox {
-        background-color: rgba(10, 93, 165, 0.5);
-
-        height: 100%;
-        width: 100%;
-        display: grid;
-        align-items: center;
-        font-size: 5rem;
-        color: rgb(243, 239, 245);
-
-
-    }
-}
 
 .ServiceContainer {
     padding: 5rem;
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 1fr 1fr;
 
     .ServiceBox {
         height: fit-content;
@@ -36,7 +14,34 @@
         padding: 1rem;
         &:hover{
             border: 1px solid rgba(128, 128, 128);
+            z-index: 10;
+            box-shadow: 3px 3px 3px 3px rgb(193, 190, 190);
 
+
+        }
+        h3{
+            font-weight: 600;
+        }
+        .service-key-box {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+
+            width: fit-content;
+            padding: 1.5rem 0 1rem 1rem;
+            .service-key {
+                list-style: circle;
+                text-overflow: ellipsis;
+                color: rgb(51, 51, 182);
+                font-weight: 600;
+                
+                padding: 0 5rem 0 0.2rem;
+                span {
+                    font-size: 14px;
+                    padding:0  0.8rem 0 0;
+
+                    color: black;
+                }
+            }
         }
 
         .ServImg {
@@ -45,19 +50,16 @@
         }
 
         .servicePara {
-            padding: 1rem 0;
+            padding: 0.5rem 0;
         }
 
-        .readMorebtn {
-            color: white;
-            padding: 0.3rem 0.4rem;
+        .service_btn{
+            display: flex;
+            justify-content: space-evenly;
             cursor: pointer;
-            background-color: rgb(16, 194, 243);
-            border: 1px solid rgba(128, 128, 128, 0.5);
-            border-radius: 2px;
-            &:hover{
-                border: 1px solid rgba(128, 128, 128);
-    
+
+            .s_btn{
+                cursor: pointer;
             }
         }
     }
@@ -70,6 +72,17 @@
         grid-template-columns: 50% 50%;
         padding: 2rem;
         justify-content: center;
+        .ServiceBox {
+            
+            .service-key-box {
+                display: grid;
+                grid-template-columns: 100%;
+                .service-key{
+                    padding: 0 0.5rem 0 0.2rem;
+                }
+                
+            }
+        }
     }
 
 
@@ -80,16 +93,27 @@
         display: grid;
         grid-template-columns: 100%;
         padding: 2rem;
-
-    }
-
-    .HeadingImage {
-        height: 20rem;
-
-        .virtualbox {
-            font-size: 3.5rem;
+        .ServiceBox {
+            
+            .service-key-box {
+                display: grid;
+                grid-template-columns: 100%;
+                .service-key{
+                    padding: 0 0.5rem 0 0.2rem;
+                }
+                
+            }
         }
+
     }
+
+    // .HeadingImage {
+    //     height: 20rem;
+
+    //     .virtualbox {
+    //         font-size: 3.5rem;
+    //     }
+    // }
 
 
 }

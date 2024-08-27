@@ -1,31 +1,39 @@
-import "./Cards.scss"
+import "./Cards.scss";
 
-import { Icon } from "@iconify/react"
-const Cards = ({ name, designation, photoSrc, bio }) => {
-  const socialLink = "https://www.youtube.com/watch?v=vGsi0OeNiKw"
+const Cards = ({ name, designation, photoSrc, bio, fees }) => {
+  const socialLink = "https://www.youtube.com/watch?v=vGsi0OeNiKw";
+  console.log(fees);
   return (
-      <div className='cardContainer centerElements'>
-        <div className="profileOutline centerElements">
-          <div className="profile">
-            <img src={photoSrc} alt="profile" />
-          </div>
+    <div className="cardContainer">
+      <div className="profileOutline centerElements">
+        <div className="profile">
+          <img src={photoSrc} alt="profile" />
         </div>
+      </div>
+      {/* Info Box */}
+      <div className="infoBox centerElements">
         <h3 className="heading">{name}</h3>
         <p className="designation">{designation}</p>
-        <p className="bio">{bio}</p>
-        <div className="social centerElements">
-          <a href={socialLink} target="_blank" rel="noreferrer"><Icon icon="ri:github-line" color="white" /></a>
+        {/* <p className="bio">{bio}</p> */}
+        <ul className="fees">
+          <li>
+            Fees:<span><s>Rs.{fees?.f}</s></span>{" "}
+          </li>
+          <li>
+            Offer Fees: <span>Rs.{fees?.of}</span>
+          </li>
+          <li>
+            Student Offer Fees: <span>Rs.{fees?.sf}</span>
+          </li>
+        </ul>
+        {/* <div className="social centerElements">
           <a href={socialLink} target="_blank" rel="noreferrer"><Icon icon="ri:facebook-fill" color="white" /></a>
           <a href={socialLink} target="_blank" rel="noreferrer"><Icon icon="mdi:instagram" color="white" /></a>
           <a href={socialLink} target="_blank" rel="noreferrer"><Icon icon="ic:outline-email" color="white" /></a>
-        </div>
-
-
+        </div> */}
       </div>
+    </div>
+  );
+};
 
-    
-
-  )
-}
-
-export default Cards
+export default Cards;
