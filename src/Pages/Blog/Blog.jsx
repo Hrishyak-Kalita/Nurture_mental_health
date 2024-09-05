@@ -19,7 +19,7 @@ const Blog = () => {
 
   const fetchBlog = async () => {
     try {
-      const { data } = await axios.post(`${proxy}/post/get-post`, { pid });
+      const { data } = await axios.get(`${proxy}/post/get-post?pid=${pid}`);
 
       if (data) {
         setBlog(data.post);
@@ -32,7 +32,7 @@ const Blog = () => {
 
   const fetchOtherBlog = async (limit) => {
     try {
-      const { data } = await axios.post(`${proxy}/post/all-post`, { limit });
+      const { data } = await axios.get(`${proxy}/post/all-post?limit=${limit}`);
 
       if (data) {
         setOtherBlogs(data.posts.filter((post) => post._id !== pid));

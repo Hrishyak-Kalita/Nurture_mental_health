@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Avatar, List, Modal } from "antd";
 import axios from "axios";
-import "./editBlog.scss";
+import styles from "./editBlog.module.scss"; 
 import { Link, useNavigate } from "react-router-dom";
 import { Loader } from "../../../Components";
 import { useAuth } from "../../../Context/context";
@@ -22,7 +22,7 @@ const EditBlog = () => {
 
   const fetchBlogs = async () => {
     try {
-      const result = await axios.post(`${proxy}/post/all-post`);
+      const result = await axios.get(`${proxy}/post/all-post`);
       setBlogs(result?.data?.posts);
     } catch (err) {
       console.log(err);
@@ -41,9 +41,7 @@ const EditBlog = () => {
 
   const handleDelete = async () => {
     try {
-      const result = await axios.post(`${proxy}/post/delete-post`, {
-        pid: blogIdToDelete,
-      });
+      const result = await axios.delete(`${proxy}/post/delete-post?pid=${blogIdToDelete}`);
       if (result) {
         fetchBlogs();
       }
@@ -63,17 +61,17 @@ const EditBlog = () => {
   if (!blogs) return <Loader />;
 
   return (
-    <div className="editBlog">
-      <div className="heading">
+    <div className={styles.editBlog}>
+      <div className={styles.heading}>
         <h1>Blog Settings</h1>
         <span>
-          <button className="headingBtn" onClick={handleLogout}>
+          <button className={styles.headingBtn} onClick={handleLogout}>
             Logout
           </button>
         </span>
         <span>
           <button
-            className="headingBtn"
+            className={styles.headingBtn}
             style={{ backgroundColor: "green" }}
             onClick={() => {
               navigate("/articles/editor");
@@ -83,7 +81,7 @@ const EditBlog = () => {
           </button>
         </span>
       </div>
-      <div className="blogList">
+      <div className={styles.blogList}>
         <List
           itemLayout="horizontal"
           dataSource={blogs}
@@ -97,9 +95,9 @@ const EditBlog = () => {
                   </Link>
                 }
               />
-              <div className="btns">
+              <div className={styles.btns}>
                 <button
-                  className="action"
+                  className={styles.action}
                   style={{ backgroundColor: "#3D31E0" }}
                   onClick={() =>
                     navigate("/articles/editor", {
@@ -110,7 +108,7 @@ const EditBlog = () => {
                   Edit
                 </button>
                 <button
-                  className="action"
+                  className={styles.action}
                   style={{ backgroundColor: "#E04932" }}
                   onClick={() => showDeleteModal(item?._id)}
                 >
