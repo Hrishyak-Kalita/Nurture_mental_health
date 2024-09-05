@@ -54,7 +54,7 @@ const BlogEditor = () => {
 
   const edit = async () => {
     try {
-      const editedBlog = await axios.post(`${proxy}/post/edit-post`, {
+      const editedBlog = await axios.put(`${proxy}/post/edit-post`, {
         title: bTitle,
         content: content,
         author: author,
